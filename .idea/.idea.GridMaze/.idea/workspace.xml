@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f6955ad-3531-4d31-9408-02bb7b1d316d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/FloatValue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/FloatValue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/MazeGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/MazeGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,10 +126,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3500">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3500" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -181,7 +172,8 @@
       <workItem from="1601736507735" duration="367000" />
       <workItem from="1609812282527" duration="1598000" />
       <workItem from="1609864693710" duration="669000" />
-      <workItem from="1609903534739" duration="10893000" />
+      <workItem from="1609903534739" duration="11214000" />
+      <workItem from="1609945935334" duration="1466000" />
     </task>
     <servers />
   </component>

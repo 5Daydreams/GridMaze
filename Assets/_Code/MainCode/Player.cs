@@ -28,8 +28,10 @@ namespace _Code.MainCode
             bool arrivedAtMovePoint =
                 Vector3.Distance(transform.position, _movePointBehavior.MovePoint.position) < 0.05f;
 
-            bool onlyOneDirectionIsPressed =
-                Math.Abs(Input.GetAxisRaw("Horizontal")) + Math.Abs(Input.GetAxisRaw("Vertical")) == 1.0f;
+            bool onlyOneDirectionIsDown =
+                (Input.GetButtonDown("Horizontal") && !Input.GetButtonDown("Vertical")) ||
+                (!Input.GetButtonDown("Horizontal") && Input.GetButtonDown("Vertical"));
+
 
             if (arrivedAtMovePoint)
             {
@@ -37,7 +39,7 @@ namespace _Code.MainCode
                 {
                     ScreenClickMovement();
                 }
-                else if (onlyOneDirectionIsPressed)
+                else if (onlyOneDirectionIsDown)
                 {
                     var direction = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
                     _movePointBehavior.TryStepTowards(direction * _cellScaleSize.Value);
