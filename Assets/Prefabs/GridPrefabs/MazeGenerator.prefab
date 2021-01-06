@@ -51,3 +51,5 @@ MonoBehaviour:
     type: 3}
   _playerPrefab: {fileID: 3289557630603956683, guid: 78552b89fcc1d4744a6b8fa6c619aac0,
     type: 3}
+  _exitPrefab: {fileID: 5670319293545540782, guid: 54be84054e004a84bb6428f65cfb5e46,
+    type: 3}

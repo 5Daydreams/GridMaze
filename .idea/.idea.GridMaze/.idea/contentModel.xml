@@ -5,13 +5,13 @@
     <e p="C:\Users\Double Dash\AppData\local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_GridMaze.-121772183.00" t="ExcludeRecursive" />
     <e p="D:\Unity\GridMaze" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Code" t="Include">
+        <e p="_Code" t="Include">
           <e p="CellTypes" t="Include">
             <e p="BitArrayCell.cs" t="Include" />
             <e p="BoolCell.cs" t="Include" />
             <e p="Cell.cs" t="Include" />
+            <e p="ExitCell.cs" t="Include" />
           </e>
           <e p="GridTypes" t="Include">
             <e p="BoolGridGenerator.cs" t="Include" />
@@ -19,25 +19,53 @@
             <e p="GridGenerator.cs" t="Include" />
           </e>
           <e p="MainCode" t="Include">
-            <e p="IMovement.cs" t="Include" />
+            <e p="IMovePointBehavior.cs" t="Include" />
             <e p="MazeGenerator.cs" t="Include" />
             <e p="MazeStatsTracker.cs" t="Include" />
-            <e p="PlayerSingleton.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="SimpleMovePointController.cs" t="Include" />
           </e>
           <e p="Observer" t="Include">
+            <e p="Event" t="Include">
+              <e p="BaseGameEvent.cs" t="Include" />
+              <e p="VoidEvent.cs" t="Include" />
+            </e>
+            <e p="Listener" t="Include">
+              <e p="BaseGameEventListener.cs" t="Include" />
+              <e p="IGameEventListener.cs" t="Include" />
+              <e p="VoidEventListener.cs" t="Include" />
+            </e>
             <e p="SliderToGeneratorObserver.cs" t="Include" />
+            <e p="VoidType" t="Include">
+              <e p="UnityVoidEvent.cs" t="Include" />
+              <e p="Void.cs" t="Include" />
+            </e>
           </e>
+          <e p="Scripts.asmdef" t="Include" />
           <e p="UIandUX" t="Include">
             <e p="LargeInputBox.cs" t="Include" />
+          </e>
+        </e>
+        <e p="_Tests" t="Include">
+          <e p="EditMode" t="Include">
+            <e p="DirectionTests.cs" t="Include" />
+            <e p="EditMode.asmdef" t="Include" />
+          </e>
+          <e p="PlayMode" t="Include">
+            <e p="MovementTest.cs" t="Include" />
+            <e p="PlayMode.asmdef" t="Include" />
           </e>
         </e>
         <e p="Editor" t="Include">
           <e p="MazeGeneratorEditor.cs" t="Include" />
         </e>
       </e>
+      <e p="EditMode.csproj" t="IncludeRecursive" />
       <e p="GridMaze.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="PlayMode.csproj" t="IncludeRecursive" />
+      <e p="Scripts.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
