@@ -2,7 +2,8 @@
 
 namespace _Code
 {
-    public class FloatValue : MonoBehaviour
+    [CreateAssetMenu(menuName = "SimpleValue/Float")]
+    public class FloatValue : ScriptableObject
     {
         public float Value;
     }
