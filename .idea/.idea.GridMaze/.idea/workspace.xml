@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f6955ad-3531-4d31-9408-02bb7b1d316d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/GridTypes/GridGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/GridTypes/GridGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GridPrefabs/MazeGenerator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GridPrefabs/MazeGenerator.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/CellScale.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scriptables/CellScale.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Code/BoolGridGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/SimpleSpriteController.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GridTypes/Grid.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GridTypes/BoolGridGenerator.cs" />
@@ -83,16 +88,17 @@
         <option value="$PROJECT_DIR$/Assets/_Code/Observer/SliderToGeneratorObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/CellTypes/ExitCell.cs" />
         <option value="$PROJECT_DIR$/Assets/_Tests/EditMode/DirectionTests.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/MazeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/GridTypes/BoolGridGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Tests/PlayMode/MovementTest.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/IMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/FloatValue.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/GridTypes/GridGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/MazeGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/ISimpleCollisionCheck.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" />
       </list>
     </option>
   </component>
@@ -172,7 +178,7 @@
       <workItem from="1601736507735" duration="367000" />
       <workItem from="1609812282527" duration="1598000" />
       <workItem from="1609864693710" duration="669000" />
-      <workItem from="1609903534739" duration="6784000" />
+      <workItem from="1609903534739" duration="8816000" />
     </task>
     <servers />
   </component>

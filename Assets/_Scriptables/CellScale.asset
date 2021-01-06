@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61f522d862a7cf0408a73c80c6bced69, type: 3}
   m_Name: CellScale
   m_EditorClassIdentifier: 
-  Value: 0
+  Value: 0.5

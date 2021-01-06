@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gridWidth: 20
   _gridHeight: 10
-  _cellScaleSize: 0.5
+  _cellScaleSize: {fileID: 11400000, guid: eb7b3ac59f1a6c7439ff49854142c325, type: 2}
   _pathWidth: 4
   _cellPrefab: {fileID: 6450053184028985551, guid: 882fe86943d1a7e479e13175720c0841,
     type: 3}

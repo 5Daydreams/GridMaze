@@ -5,6 +5,7 @@ namespace _Code.MainCode
     public class SimpleMovePointController : MonoBehaviour, IMovePointBehavior
     {
         [SerializeField] private Transform _movePoint;
+        [SerializeField] private LayerMask _layer;
         public Transform MovePoint => _movePoint;
 
         private void Start()
@@ -12,9 +13,16 @@ namespace _Code.MainCode
             _movePoint.parent = null;
         }
 
-        public void StepTowards(Vector2 dir)
+        public void StepTowards(Vector3 dir)
         {
-            _movePoint.position += new Vector3(dir.x, dir.y, 0);
+            if(CollisionCheck(dir))
+                return;
+            _movePoint.position += dir;
+        }
+
+        private bool CollisionCheck(Vector3 collisionDirection)
+        {
+            return Physics2D.OverlapCircle(_movePoint.position + collisionDirection/2, 0.1f, _layer);
         }
     }
 }

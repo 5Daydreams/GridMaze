@@ -38,19 +38,19 @@ namespace _Code.MainCode
                 }
                 else if (onlyOneDirectionIsPressed)
                 {
-                    var direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-                    _movePointBehavior.StepTowards(direction);
+                    var direction = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"),0);
+                    _movePointBehavior.StepTowards(direction * _cellScaleSize.Value );
                 }
             }
         }
 
-        void ChaseMovePoint()
+        private void ChaseMovePoint()
         {
             transform.position =
                 Vector3.MoveTowards(transform.position, _movePointBehavior.MovePoint.position, _stepSpeed*Time.deltaTime);
         }
 
-        void ScreenClickMovement()
+        private void ScreenClickMovement()
         {
             // here, I'm centering the cartesian of the screen in the center, as opposed to the bottom-left corner 
             var screenCenterPosition = new Vector2(Screen.width / 2.0f, Screen.height / 2.0f);
@@ -59,11 +59,11 @@ namespace _Code.MainCode
 
             if (Mathf.Abs(xPercent) > Mathf.Abs(yPercent))
             {
-                _movePointBehavior.StepTowards(new Vector2(xPercent / Mathf.Abs(xPercent), 0));
+                _movePointBehavior.StepTowards(new Vector3(xPercent / Mathf.Abs(xPercent), 0,0) * _cellScaleSize.Value );
             }
             else if (Mathf.Abs(yPercent) > Mathf.Abs(xPercent))
             {
-                _movePointBehavior.StepTowards(new Vector2(0, yPercent / Mathf.Abs(yPercent)));
+                _movePointBehavior.StepTowards(new Vector3(0, yPercent / Mathf.Abs(yPercent),0) * _cellScaleSize.Value  );
             }
         }
     }
