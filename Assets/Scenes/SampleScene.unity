@@ -2673,5 +2673,15 @@ PrefabInstance:
       propertyPath: _cellTransformSize
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7867000424502710019, guid: 3984288d57f8e9f42b65aea393515847,
+        type: 3}
+      propertyPath: _gridWidth
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867000424502710019, guid: 3984288d57f8e9f42b65aea393515847,
+        type: 3}
+      propertyPath: _gridHeight
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3984288d57f8e9f42b65aea393515847, type: 3}

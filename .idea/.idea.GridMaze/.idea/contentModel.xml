@@ -13,7 +13,6 @@
             <e p="Cell.cs" t="Include" />
             <e p="ExitCell.cs" t="Include" />
           </e>
-          <e p="FloatValue.cs" t="Include" />
           <e p="GridTypes" t="Include">
             <e p="BoolGridGenerator.cs" t="Include" />
             <e p="Grid.cs" t="Include" />
@@ -43,6 +42,10 @@
             </e>
           </e>
           <e p="Scripts.asmdef" t="Include" />
+          <e p="Toolbox" t="Include">
+            <e p="EventLog.cs" t="Include" />
+            <e p="FloatValue.cs" t="Include" />
+          </e>
           <e p="UIandUX" t="Include">
             <e p="LargeInputBox.cs" t="Include" />
           </e>

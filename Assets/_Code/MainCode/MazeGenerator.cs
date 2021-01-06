@@ -14,6 +14,7 @@ namespace _Code.MainCode
         [SerializeField] private Player _playerPrefab;
         [SerializeField] private ExitCell _exitPrefab;
         private Player _currPlayer;
+        private ExitCell _currExit;
         private int _visitedCells;
         private Stack<Vector2Int> _stack = new Stack<Vector2Int>();
 
@@ -88,16 +89,17 @@ namespace _Code.MainCode
 
         private void CreateMazeEnds()
         {
-            // _grid[0, _gridHeight - 1].Value[1] = true; // shoud the game open this?
             var playerStartingPosition = _grid[0, _gridHeight - 1].gameObject.transform.position;
             var offset = new Vector3(1, 1, 0) * _cellScaleSize.Value / 2;
             if (!_currPlayer)
                 _currPlayer = Instantiate(_playerPrefab, playerStartingPosition + offset, Quaternion.identity);
             _currPlayer.SetPosition(playerStartingPosition + offset);
             _grid[_gridWidth - 1, 0].Value[3] = true;
+    
             var exitCell = _grid[_gridWidth - 1, 0].gameObject.transform;
-            if (!exitCell.GetComponent<ExitCell>())
-                Instantiate(_exitPrefab, exitCell);
+            if (_currExit != null)
+                Destroy(_currExit.gameObject);
+            _currExit = Instantiate(_exitPrefab, exitCell.position + new Vector3(+0.25f,+0.25f,0), Quaternion.identity);
         }
 
         private void RunIteration()

@@ -15,8 +15,9 @@ namespace _Code.MainCode
             _movePointBehavior = GetComponent<IMovePointBehavior>();
         }
 
-        public void SetPosition(Vector3 position) // Used by gridGen for repositioning the player
+        public void SetPosition(Vector3 position)
         {
+            _movePointBehavior.SetPosition(position);
             gameObject.transform.position = position;
         }
 
@@ -38,8 +39,8 @@ namespace _Code.MainCode
                 }
                 else if (onlyOneDirectionIsPressed)
                 {
-                    var direction = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"),0);
-                    _movePointBehavior.StepTowards(direction * _cellScaleSize.Value );
+                    var direction = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
+                    _movePointBehavior.TryStepTowards(direction * _cellScaleSize.Value);
                 }
             }
         }
@@ -47,7 +48,8 @@ namespace _Code.MainCode
         private void ChaseMovePoint()
         {
             transform.position =
-                Vector3.MoveTowards(transform.position, _movePointBehavior.MovePoint.position, _stepSpeed*Time.deltaTime);
+                Vector3.MoveTowards(transform.position, _movePointBehavior.MovePoint.position,
+                    _stepSpeed * Time.deltaTime);
         }
 
         private void ScreenClickMovement()
@@ -59,11 +61,13 @@ namespace _Code.MainCode
 
             if (Mathf.Abs(xPercent) > Mathf.Abs(yPercent))
             {
-                _movePointBehavior.StepTowards(new Vector3(xPercent / Mathf.Abs(xPercent), 0,0) * _cellScaleSize.Value );
+                _movePointBehavior.TryStepTowards(new Vector3(xPercent / Mathf.Abs(xPercent), 0, 0) *
+                                                  _cellScaleSize.Value);
             }
             else if (Mathf.Abs(yPercent) > Mathf.Abs(xPercent))
             {
-                _movePointBehavior.StepTowards(new Vector3(0, yPercent / Mathf.Abs(yPercent),0) * _cellScaleSize.Value  );
+                _movePointBehavior.TryStepTowards(new Vector3(0, yPercent / Mathf.Abs(yPercent), 0) *
+                                                  _cellScaleSize.Value);
             }
         }
     }

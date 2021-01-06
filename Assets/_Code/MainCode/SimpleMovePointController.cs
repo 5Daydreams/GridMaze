@@ -13,11 +13,16 @@ namespace _Code.MainCode
             _movePoint.parent = null;
         }
 
-        public void StepTowards(Vector3 dir)
+        public void TryStepTowards(Vector3 dir)
         {
             if(CollisionCheck(dir))
                 return;
             _movePoint.position += dir;
+        }
+
+        public void SetPosition(Vector3 pos)
+        {
+            _movePoint.position = pos;
         }
 
         private bool CollisionCheck(Vector3 collisionDirection)
