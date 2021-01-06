@@ -13,6 +13,7 @@
             <e p="Cell.cs" t="Include" />
             <e p="ExitCell.cs" t="Include" />
           </e>
+          <e p="FloatValue.cs" t="Include" />
           <e p="GridTypes" t="Include">
             <e p="BoolGridGenerator.cs" t="Include" />
             <e p="Grid.cs" t="Include" />

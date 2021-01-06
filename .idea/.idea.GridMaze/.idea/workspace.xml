@@ -20,45 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f6955ad-3531-4d31-9408-02bb7b1d316d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/CellTypes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/CellTypes/BitArrayCell.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/CellTypes/BitArrayCell.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/CellTypes/BoolCell.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/CellTypes/BoolCell.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/CellTypes/Cell.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/CellTypes/Cell.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/GridTypes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/GridTypes/BoolGridGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/GridTypes/BoolGridGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/GridTypes/Grid.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/GridTypes/Grid.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/GridTypes/GridGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/GridTypes/GridGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/MainCode.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/MainCode/IMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/MainCode/IMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/MainCode/MazeGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/MainCode/MazeGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/MainCode/MazeStatsTracker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/MainCode/MazeStatsTracker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/MainCode/PlayerSingleton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/MainCode/PlayerSingleton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Observer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Observer/SliderToGeneratorObserver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Observer/SliderToGeneratorObserver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/UIandUX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/UIandUX/LargeInputBox.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/UIandUX/LargeInputBox.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GridPrefabs/MazeGenerator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GridPrefabs/MazeGenerator.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,8 +89,8 @@
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/IMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePoint.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" />
       </list>
     </option>
   </component>
@@ -208,7 +170,7 @@
       <workItem from="1601736507735" duration="367000" />
       <workItem from="1609812282527" duration="1598000" />
       <workItem from="1609864693710" duration="669000" />
-      <workItem from="1609903534739" duration="5548000" />
+      <workItem from="1609903534739" duration="6418000" />
     </task>
     <servers />
   </component>
