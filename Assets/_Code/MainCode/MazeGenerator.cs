@@ -90,7 +90,7 @@ namespace _Code.MainCode
         {
             // _grid[0, _gridHeight - 1].Value[1] = true; // shoud the game open this?
             var playerStartingPosition = _grid[0, _gridHeight - 1].gameObject.transform.position;
-            var offset = new Vector3(1, 1, 0) * _cellScaleSize / 2;
+            var offset = new Vector3(1, 1, 0) * _cellScaleSize.Value / 2;
             if (!_currPlayer)
                 _currPlayer = Instantiate(_playerPrefab, playerStartingPosition + offset, Quaternion.identity);
             _currPlayer.SetPosition(playerStartingPosition + offset);

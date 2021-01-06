@@ -7,6 +7,7 @@ namespace _Code.MainCode
     public class Player : MonoBehaviour
     {
         [SerializeField] private float _stepSpeed = 1;
+        [SerializeField] private FloatValue _cellScaleSize;
         private IMovePointBehavior _movePointBehavior;
 
         private void Awake()

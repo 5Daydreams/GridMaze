@@ -7,7 +7,7 @@ namespace _Code.GridTypes
     {
         [SerializeField] protected int _gridWidth;
         [SerializeField] protected int _gridHeight;
-        [SerializeField] protected float _cellScaleSize = 1;
+        [SerializeField] protected FloatValue _cellScaleSize;
         protected Cell<T>[,] _grid;
 
         public void SetGridWidth(int value)
@@ -31,7 +31,7 @@ namespace _Code.GridTypes
         {
             var offsetPosition = new Vector3(-_gridWidth, -_gridHeight, 0.0f);
             var extraOffset = new Vector3(0, -1.5f, 0);
-            this.transform.position = (offsetPosition + extraOffset) * _cellScaleSize * 0.5f;
+            this.transform.position = (offsetPosition + extraOffset) * _cellScaleSize.Value * 0.5f;
         }
 
         protected void CreateInScene()
@@ -40,12 +40,12 @@ namespace _Code.GridTypes
             {
                 for (int j = 0; j < _gridHeight; j++)
                 {
-                    var basePos = new Vector3(i * _cellScaleSize, j * _cellScaleSize, 0);
+                    var basePos = new Vector3(i * _cellScaleSize.Value, j * _cellScaleSize.Value, 0);
                     var cellPos = basePos + this.transform.position;
                     var cellPrefab = RegisterPrefab();
                     _grid[i, j] = Instantiate(cellPrefab, cellPos, Quaternion.identity);
                     _grid[i, j].transform.SetParent(this.transform);
-                    _grid[i, j].SetCellScale(_cellScaleSize);
+                    _grid[i, j].SetCellScale(_cellScaleSize.Value);
                     _grid[i, j].gameObject.name = "( " + i + ", " + j + " )";
                 }
             }
