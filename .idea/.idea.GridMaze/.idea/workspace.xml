@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f6955ad-3531-4d31-9408-02bb7b1d316d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces/ICollisionCheckBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces/ICollisionCheckBehavior.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces/IMovePointBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces/IMovePointBehavior.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Code/GridTypes/Grid.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/GridTypes/BoolGridGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/MazeStatsTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CellTypes/BoolCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/MazeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CellTypes/BitArrayCell.cs" />
@@ -91,8 +97,11 @@
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/EventLog.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/MazeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces/ICollisionChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces/ICollisionCheckBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Juice/CameraShake.cs" />
       </list>
     </option>
   </component>
@@ -173,7 +182,9 @@
       <workItem from="1609812282527" duration="1598000" />
       <workItem from="1609864693710" duration="669000" />
       <workItem from="1609903534739" duration="11214000" />
-      <workItem from="1609945935334" duration="1466000" />
+      <workItem from="1609945935334" duration="2067000" />
+      <workItem from="1609990616537" duration="4579000" />
+      <workItem from="1610033100269" duration="2951000" />
     </task>
     <servers />
   </component>

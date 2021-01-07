@@ -18,8 +18,14 @@
             <e p="Grid.cs" t="Include" />
             <e p="GridGenerator.cs" t="Include" />
           </e>
+          <e p="Juice" t="Include">
+            <e p="CameraShake.cs" t="Include" />
+          </e>
           <e p="MainCode" t="Include">
-            <e p="IMovePointBehavior.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="ICollisionCheckBehavior.cs" t="Include" />
+              <e p="IMovePointBehavior.cs" t="Include" />
+            </e>
             <e p="MazeGenerator.cs" t="Include" />
             <e p="MazeStatsTracker.cs" t="Include" />
             <e p="Player.cs" t="Include" />
