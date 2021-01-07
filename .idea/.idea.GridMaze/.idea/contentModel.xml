@@ -19,7 +19,7 @@
             <e p="GridGenerator.cs" t="Include" />
           </e>
           <e p="Juice" t="Include">
-            <e p="CameraShake.cs" t="Include" />
+            <e p="CameraEffects.cs" t="Include" />
           </e>
           <e p="MainCode" t="Include">
             <e p="Interfaces" t="Include">

@@ -12,9 +12,9 @@ namespace _Code.MainCode
         [SerializeField] private FloatValue _cellScaleSize;
         [Header("Juice Components")]
         [SerializeField] private Animator _animatorController;
-        [SerializeField] private CameraShake _cameraShake;
+        [SerializeField] private CameraEffects cameraEffects;
         [SerializeField] private float _shakeTime = 1.0f;
-        [SerializeField] private float _shakeIntensity = 1.0f;
+        [SerializeField] private float _downscalingFactor = 1.0f;
         private IMovePointBehavior _movePointBehavior;
         private ICollisionCheckBehavior _collisionCheckBehavior;
 
@@ -22,7 +22,7 @@ namespace _Code.MainCode
         {
             _movePointBehavior = GetComponent<IMovePointBehavior>();
             _collisionCheckBehavior = GetComponent<ICollisionCheckBehavior>();
-            _cameraShake = FindObjectOfType<CameraShake>();
+            cameraEffects = FindObjectOfType<CameraEffects>();
         }
 
         public void SetPosition(Vector3 position)
@@ -85,7 +85,7 @@ namespace _Code.MainCode
             if (_collisionCheckBehavior.CollisionCheck(direction/2))
                 return;
 
-            StartCoroutine(_cameraShake.ShakeZ(_shakeTime, _shakeIntensity));
+            StartCoroutine(cameraEffects.ScreenKick(_shakeTime, _downscalingFactor)); // A good value for DS factor was 0.998f, weird....
             _animatorController.Play("Move");
             _movePointBehavior.StepTowards(direction * _cellScaleSize.Value);
             

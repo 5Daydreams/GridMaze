@@ -182,9 +182,9 @@ MonoBehaviour:
   _stepSpeed: 10
   _cellScaleSize: {fileID: 11400000, guid: eb7b3ac59f1a6c7439ff49854142c325, type: 2}
   _animatorController: {fileID: 3723022730106415763}
-  _cameraShake: {fileID: 0}
-  _shakeTime: 0.05
-  _shakeIntensity: 0.05
+  cameraEffects: {fileID: 0}
+  _shakeTime: 0.03
+  _downscalingFactor: 1.001
 --- !u!114 &4987358764284605967
 MonoBehaviour:
   m_ObjectHideFlags: 0
