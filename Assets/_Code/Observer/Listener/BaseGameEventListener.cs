@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using _Code.Observer.Listener;
 using UnityEngine;
 using UnityEngine.Events;
@@ -16,19 +17,38 @@ public abstract class BaseGameEventListener<T, E, UER> : MonoBehaviour,
             return;
 
         GameEvent.RegisterListener(this);
+        // foreach (var singleEvent in GameEvent)
+        // {
+        //     singleEvent.RegisterListener(this);
+        // }
     }
 
     private void OnDisable()
     {
         if (_gameEvent == null)
             return;
-
         GameEvent.UnregisterListener(this);
+        
+        // foreach (var singleEvent in GameEvent)
+        // {
+        //     singleEvent.UnregisterListener(this);
+        // }
     }
 
     public void OnEventRaised(T item)
     {
-        if(UnityEventResponse != null)
-            UnityEventResponse.Invoke(item);
+        UnityEventResponse?.Invoke(item);
+        
+        // foreach (var response in UnityEventResponse)
+        // {
+        //     response?.Invoke(item);
+        // }
     }
 }
+
+[Serializable]
+public struct EventAndResponse<T, E, UER> where E : BaseGameEvent<T> where UER : UnityEvent<T>
+{
+    public E gameEvent;
+    public UER UnityEventResponse;
+} 

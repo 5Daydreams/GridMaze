@@ -20,10 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f6955ad-3531-4d31-9408-02bb7b1d316d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/SimpleValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/SimpleValue.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Observer/Event/VoidEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Observer/Event/VoidEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelClearedPopup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelClearedPopup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/MazeGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/MazeGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/MazeStatsTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/MazeStatsTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Observer/Listener/BaseGameEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Observer/Listener/BaseGameEventListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/FloatValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/FloatValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/FloatValue.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/FloatValue.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +49,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Juice/CameraEffects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Event/VoidEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Event/BaseGameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Listener/BaseGameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Listener/VoidEventListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Listener/IGameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BD515F-D2A0-4526-8509-D23726DE0F46/df/576d30ab/BitArray.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Tests/PlayMode/MovementTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/MainCode/MazeStatsTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Tests/EditMode/DirectionTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/MainCode/MazeGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Code/Toolbox/EventLog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Code/LevelConfigReader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/LargeInputBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/CameraValuesPrinter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/MainCode/IMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/MainCode/MazeGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/MainCode/PlayerSingleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GridTypes/GridGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Observer/SimpleObserver.cs" />
@@ -84,17 +103,23 @@
         <option value="$PROJECT_DIR$/Assets/_Code/GridTypes/GridGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/ISimpleCollisionCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/EventLog.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/MazeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces/ICollisionChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces/ICollisionCheckBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Juice/CameraShake.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Juice/CameraEffects.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/MazeStatsTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/UIandUX/LargeInputBox.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Observer/Event/VoidEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Observer/Listener/IGameEventListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/MazeGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/SimpleMovePointController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Observer/Listener/BaseGameEventListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/FloatValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/FloatValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MainCode/MazeStatsTracker.cs" />
       </list>
     </option>
   </component>
@@ -128,10 +153,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="4424">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="4424" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -177,7 +202,8 @@
       <workItem from="1609903534739" duration="11214000" />
       <workItem from="1609945935334" duration="2067000" />
       <workItem from="1609990616537" duration="4579000" />
-      <workItem from="1610033100269" duration="12413000" />
+      <workItem from="1610033100269" duration="13204000" />
+      <workItem from="1610119397378" duration="3266000" />
     </task>
     <servers />
   </component>

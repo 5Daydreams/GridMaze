@@ -5,6 +5,7 @@ namespace _Code.MainCode
     public class SimpleMovePointController : MonoBehaviour, IMovePointBehavior, ICollisionCheckBehavior
     {
         [SerializeField] private Transform _movePoint;
+        [SerializeField] private VoidEvent _onMove;
         [SerializeField] private LayerMask _layer;
         public Transform MovePoint => _movePoint;
 
@@ -16,6 +17,7 @@ namespace _Code.MainCode
         public void StepTowards(Vector3 dir)
         {
             _movePoint.position += dir;
+            _onMove.Raise();
         }
 
         public void SetPosition(Vector3 pos)

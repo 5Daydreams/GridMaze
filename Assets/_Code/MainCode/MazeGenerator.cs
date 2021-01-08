@@ -13,6 +13,7 @@ namespace _Code.MainCode
         [SerializeField] private BitArrayCell _cellPrefab;
         [SerializeField] private Player _playerPrefab;
         [SerializeField] private ExitCell _exitPrefab;
+        [SerializeField] private VoidEvent _onStart;
         private Player _currPlayer;
         private ExitCell _currExit;
         private int _visitedCells;
@@ -30,6 +31,7 @@ namespace _Code.MainCode
             base.Start();
             Reset();
             GenerateMaze();
+            _onStart.Raise();
         }
 
         public void NewMaze()

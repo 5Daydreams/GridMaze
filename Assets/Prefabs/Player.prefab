@@ -182,9 +182,6 @@ MonoBehaviour:
   _stepSpeed: 10
   _cellScaleSize: {fileID: 11400000, guid: eb7b3ac59f1a6c7439ff49854142c325, type: 2}
   _animatorController: {fileID: 3723022730106415763}
-  cameraEffects: {fileID: 0}
-  _shakeTime: 0.03
-  _downscalingFactor: 1.001
 --- !u!114 &4987358764284605967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,6 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movePoint: {fileID: 475979491588283103}
+  _onMove: {fileID: 11400000, guid: 1900dd295ed612b49be0ea0414f663c1, type: 2}
   _layer:
     serializedVersion: 2
     m_Bits: 256

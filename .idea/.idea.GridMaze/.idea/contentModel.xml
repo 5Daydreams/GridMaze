@@ -45,11 +45,15 @@
               <e p="ExitCell.cs" t="Include" />
             </e>
             <e p="EventLog.cs" t="Include" />
-            <e p="FloatValue.cs" t="Include" />
             <e p="GridTypes" t="Include">
               <e p="BoolGridGenerator.cs" t="Include" />
               <e p="Grid.cs" t="Include" />
               <e p="GridGenerator.cs" t="Include" />
+            </e>
+            <e p="SimpleValues" t="Include">
+              <e p="FloatValue.cs" t="Include" />
+              <e p="IntValue.cs" t="Include" />
+              <e p="SimpleValue.cs" t="Include" />
             </e>
           </e>
           <e p="UIandUX" t="Include">
