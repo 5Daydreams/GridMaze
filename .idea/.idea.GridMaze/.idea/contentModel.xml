@@ -7,17 +7,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_Code" t="Include">
-          <e p="CellTypes" t="Include">
-            <e p="BitArrayCell.cs" t="Include" />
-            <e p="BoolCell.cs" t="Include" />
-            <e p="Cell.cs" t="Include" />
-            <e p="ExitCell.cs" t="Include" />
-          </e>
-          <e p="GridTypes" t="Include">
-            <e p="BoolGridGenerator.cs" t="Include" />
-            <e p="Grid.cs" t="Include" />
-            <e p="GridGenerator.cs" t="Include" />
-          </e>
           <e p="Juice" t="Include">
             <e p="CameraEffects.cs" t="Include" />
           </e>
@@ -49,8 +38,19 @@
           </e>
           <e p="Scripts.asmdef" t="Include" />
           <e p="Toolbox" t="Include">
+            <e p="CellTypes" t="Include">
+              <e p="BitArrayCell.cs" t="Include" />
+              <e p="BoolCell.cs" t="Include" />
+              <e p="Cell.cs" t="Include" />
+              <e p="ExitCell.cs" t="Include" />
+            </e>
             <e p="EventLog.cs" t="Include" />
             <e p="FloatValue.cs" t="Include" />
+            <e p="GridTypes" t="Include">
+              <e p="BoolGridGenerator.cs" t="Include" />
+              <e p="Grid.cs" t="Include" />
+              <e p="GridGenerator.cs" t="Include" />
+            </e>
           </e>
           <e p="UIandUX" t="Include">
             <e p="LargeInputBox.cs" t="Include" />

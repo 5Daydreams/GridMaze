@@ -17,7 +17,7 @@ public class MazeStatsTracker : MonoBehaviour
         _timeElapsed += Time.deltaTime;
     }
 
-    public void ResetTimer()
+    public void ResetRunStatistics()
     {
         _stepsTaken = 0;
         _storedTime = 0;

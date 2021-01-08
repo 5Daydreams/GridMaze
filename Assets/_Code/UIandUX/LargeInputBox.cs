@@ -9,12 +9,9 @@ using UnityEngine.UI;
 
 public class LargeInputBox : MonoBehaviour
 {
-    [SerializeField] private List<InputField> _inputFields; // Change this to the sliders
     [SerializeField] private Button _closeWindowButton;
     [SerializeField] private Button _confirmButton;
     [SerializeField] private MazeGenerator _maze;
-    // [SerializeField] private List<UnityEvent<int>> _eventList = new List<UnityEvent<int>>();
-
 
     private void OnEnable()
     {
