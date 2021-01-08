@@ -1,4 +1,7 @@
-﻿public interface IGameEventListener<T>
+﻿namespace _Code.Observer.Listener
 {
-    void OnEventRaised(T item);
+    public interface IGameEventListener<T>
+    {
+        void OnEventRaised(T item);
+    }
 }

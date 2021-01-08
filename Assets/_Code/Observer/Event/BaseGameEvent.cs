@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using _Code.Observer.Listener;
 using UnityEngine;
 
 public class BaseGameEvent<T> : ScriptableObject
