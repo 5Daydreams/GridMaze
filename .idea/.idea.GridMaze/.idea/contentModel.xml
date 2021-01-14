@@ -10,15 +10,8 @@
           <e p="Juice" t="Include">
             <e p="CameraEffects.cs" t="Include" />
           </e>
-          <e p="MainCode" t="Include">
-            <e p="Interfaces" t="Include">
-              <e p="ICollisionCheckBehavior.cs" t="Include" />
-              <e p="IMovePointBehavior.cs" t="Include" />
-            </e>
+          <e p="MazeGenerator" t="Include">
             <e p="MazeGenerator.cs" t="Include" />
-            <e p="MazeStatsTracker.cs" t="Include" />
-            <e p="Player.cs" t="Include" />
-            <e p="SimpleMovePointController.cs" t="Include" />
           </e>
           <e p="Observer" t="Include">
             <e p="Event" t="Include">
@@ -30,11 +23,20 @@
               <e p="IGameEventListener.cs" t="Include" />
               <e p="VoidEventListener.cs" t="Include" />
             </e>
+            <e p="MazeStatsTracker.cs" t="Include" />
             <e p="SliderToGeneratorObserver.cs" t="Include" />
             <e p="VoidType" t="Include">
               <e p="UnityVoidEvent.cs" t="Include" />
               <e p="Void.cs" t="Include" />
             </e>
+          </e>
+          <e p="Player" t="Include">
+            <e p="Interfaces" t="Include">
+              <e p="ICollisionCheckBehavior.cs" t="Include" />
+              <e p="IMovePointBehavior.cs" t="Include" />
+            </e>
+            <e p="Player.cs" t="Include" />
+            <e p="SimpleMovePointController.cs" t="Include" />
           </e>
           <e p="Scripts.asmdef" t="Include" />
           <e p="Toolbox" t="Include">
@@ -50,6 +52,7 @@
               <e p="Grid.cs" t="Include" />
               <e p="GridGenerator.cs" t="Include" />
             </e>
+            <e p="SceneTransition.cs" t="Include" />
             <e p="SimpleValues" t="Include">
               <e p="FloatValue.cs" t="Include" />
               <e p="IntValue.cs" t="Include" />

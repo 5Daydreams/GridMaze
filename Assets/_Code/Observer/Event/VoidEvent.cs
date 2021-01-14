@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using _Code.Observer.Event;
+using UnityEngine;
 
 [CreateAssetMenu(menuName = "CustomScriptables/Events/VoidEvent", fileName = "NewVoidEvent")]
 public class VoidEvent : BaseGameEvent<Void>
