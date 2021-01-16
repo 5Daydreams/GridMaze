@@ -6,16 +6,16 @@ using UnityEngine.SceneManagement;
 [CreateAssetMenu(fileName = "NewSceneTransition", menuName = "CustomScriptables/SceneTransition")]
 public class SceneTransition : ScriptableObject
 {
-    [SerializeField] private Scene _targetScene;
+    [SerializeField] private string _targetScene;
     [SerializeField] private bool _onlyTransition;
     
     public void ChangeScene()
     {
         if (_onlyTransition)
         {
-            if (SceneManager.GetActiveScene() == _targetScene)
+            if (SceneManager.GetActiveScene().name == _targetScene)
                 Debug.LogError("Error: this is a transition-only scene");
         }
-        SceneManager.LoadScene(_targetScene.name);
+        SceneManager.LoadScene(_targetScene);
     }
 }

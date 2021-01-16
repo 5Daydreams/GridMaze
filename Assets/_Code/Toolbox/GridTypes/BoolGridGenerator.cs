@@ -9,15 +9,15 @@ namespace _Code.GridTypes
         [SerializeField] private int _gridHeight;
         [SerializeField] private float _cellSize;
         [SerializeField] private BoolCell _cellPrefab;
-        private BoolGrid _boolGrid;
+        private BoolCustomGrid _boolCustomGrid;
         private List<BoolCell> _stack;
 
         private void Start()
         {
             RecenterThis();
-            _boolGrid = new BoolGrid(_gridWidth, _gridHeight, _cellSize);
+            _boolCustomGrid = new BoolCustomGrid(_gridWidth, _gridHeight, _cellSize);
             CreateInScene();
-            _boolGrid.RandomizeAll();
+            _boolCustomGrid.RandomizeAll();
         }
 
         private void RecenterThis()
@@ -35,25 +35,25 @@ namespace _Code.GridTypes
                 {
                     var basePos = new Vector3(i * _cellSize, j * _cellSize, 0);
                     var cellPos = basePos + this.transform.position;
-                    _boolGrid.GridArray[i, j] = Instantiate(_cellPrefab, cellPos, Quaternion.identity);
-                    _boolGrid.GridArray[i, j].transform.SetParent(this.transform);
-                    _boolGrid.GridArray[i, j].gameObject.name = "( " + i + ", " + j + " )";
+                    _boolCustomGrid.GridArray[i, j] = Instantiate(_cellPrefab, cellPos, Quaternion.identity);
+                    _boolCustomGrid.GridArray[i, j].transform.SetParent(this.transform);
+                    _boolCustomGrid.GridArray[i, j].gameObject.name = "( " + i + ", " + j + " )";
                 }
             }
         }
 
         public void EditorCallRandomizeAll()
         {
-            _boolGrid.RandomizeAll();
+            _boolCustomGrid.RandomizeAll();
         }
 
         private void SetAll(bool value)
         {
-            for (int i = 0; i < _boolGrid.GridArray.GetLength(0); i++)
+            for (int i = 0; i < _boolCustomGrid.GridArray.GetLength(0); i++)
             {
-                for (int j = 0; j < _boolGrid.GridArray.GetLength(1); j++)
+                for (int j = 0; j < _boolCustomGrid.GridArray.GetLength(1); j++)
                 {
-                    _boolGrid.GridArray[i, j].SetCellValue(value);
+                    _boolCustomGrid.GridArray[i, j].SetCellValue(value);
                 }
             }
         }

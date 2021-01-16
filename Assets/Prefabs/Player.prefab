@@ -196,7 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _movePoint: {fileID: 475979491588283103}
   _onMove: {fileID: 11400000, guid: 1900dd295ed612b49be0ea0414f663c1, type: 2}
-  _layer:
+  _collisionLayer:
     serializedVersion: 2
     m_Bits: 256
 --- !u!61 &8466359385551262380

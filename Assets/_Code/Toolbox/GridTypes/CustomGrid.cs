@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = System.Random;
 
-public abstract class Grid<T>
+public abstract class CustomGrid<T>
 {
     [SerializeField] protected int Width;
     [SerializeField] protected int Height;
@@ -12,7 +12,7 @@ public abstract class Grid<T>
     [SerializeField] protected Random Random = new Random();
     public Cell<T>[,] GridArray;
 
-    public Grid(int width, int height, float size)
+    public CustomGrid(int width, int height, float size)
     {
         Width = width;
         Height = height;
@@ -39,9 +39,9 @@ public abstract class Grid<T>
     public abstract void RandomizeAll();
 }
 
-public class IntGrid : Grid<int>
+public class IntCustomGrid : CustomGrid<int>
 {
-    public IntGrid(int width, int height, float size) : base(width, height, size)
+    public IntCustomGrid(int width, int height, float size) : base(width, height, size)
     {
         Width = width;
         Height = height;
@@ -62,9 +62,9 @@ public class IntGrid : Grid<int>
     }
 }
 
-public class BoolGrid : Grid<bool>
+public class BoolCustomGrid : CustomGrid<bool>
 {
-    public BoolGrid(int width, int height, float size) : base(width, height, size)
+    public BoolCustomGrid(int width, int height, float size) : base(width, height, size)
     {
         Width = width;
         Height = height;
@@ -84,9 +84,9 @@ public class BoolGrid : Grid<bool>
     }
 }
 
-public class FloatGrid : Grid<float>
+public class FloatCustomGrid : CustomGrid<float>
 {
-    public FloatGrid(int width, int height, float size) : base(width, height, size)
+    public FloatCustomGrid(int width, int height, float size) : base(width, height, size)
     {
         Width = width;
         Height = height;
@@ -107,9 +107,9 @@ public class FloatGrid : Grid<float>
     }
 }
 
-public class BitArrayGrid : Grid<BitArray>
+public class BitArrayCustomGrid : CustomGrid<BitArray>
 {
-    public BitArrayGrid(int width, int height, float size) : base(width, height, size)
+    public BitArrayCustomGrid(int width, int height, float size) : base(width, height, size)
     {
         Width = width;
         Height = height;

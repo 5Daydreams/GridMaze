@@ -6,7 +6,7 @@ namespace _Code.MainCode
     {
         [SerializeField] private Transform _movePoint;
         [SerializeField] private VoidEvent _onMove;
-        [SerializeField] private LayerMask _layer;
+        [SerializeField] private LayerMask _collisionLayer;
         public Transform MovePoint => _movePoint;
 
         private void Start()
@@ -27,7 +27,7 @@ namespace _Code.MainCode
 
         public bool CollisionCheck(Vector3 collisionDirection)
         {
-            return Physics2D.OverlapCircle(_movePoint.position + collisionDirection/2, 0.1f, _layer);
+            return Physics2D.OverlapCircle(_movePoint.position + collisionDirection/2, 0.1f, _collisionLayer);
         }
     }
 }

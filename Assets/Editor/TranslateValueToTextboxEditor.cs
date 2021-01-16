@@ -1,24 +1,24 @@
-﻿using _Code.MainCode;
+﻿using _Code.Toolbox;
 using UnityEditor;
 using UnityEngine;
 
 namespace Editor
 {
-    [CustomEditor(typeof(MazeGenerator))]
-    public class MazeGeneratorEditor : UnityEditor.Editor
+    [CustomEditor(typeof(FloatTextboxObserver))]
+    public class FloatTextboxObserverEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {
-            MazeGenerator mazeGenerator = (MazeGenerator) target;
+            FloatTextboxObserver translator = (FloatTextboxObserver) target;
         
             GUILayout.Label("Base Inspector", EditorStyles.boldLabel);
             using (new GUILayout.VerticalScope(EditorStyles.helpBox))
                 base.OnInspectorGUI();
         
             GUILayout.Label("Custom Add-ons", EditorStyles.boldLabel);
-            if (GUILayout.Button("Generate new maze"))
+            if (GUILayout.Button("Translate to time"))
             {
-                mazeGenerator.NewMaze();
+                translator.TranslateValueToTime();
             }
         }
     }

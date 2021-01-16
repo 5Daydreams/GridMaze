@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
-namespace _Code.Toolbox
+namespace _Code.Toolbox.SimpleValues
 {
-    public class SimpleValue<T> : ScriptableObject
+    public abstract class SimpleValue<T> : ScriptableObject
     {
         public T Value;
     }
