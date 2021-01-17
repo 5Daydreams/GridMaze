@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using _Code.CellTypes;
 using _Code.GridTypes;
+using _Code.MainCode;
 using UnityEngine;
 using Random = System.Random;
 
-namespace _Code.MainCode
+namespace _Code.MazeGenerator
 {
     public class MazeGenerator : GridGenerator<BitArray>
     {

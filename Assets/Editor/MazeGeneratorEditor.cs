@@ -1,4 +1,5 @@
 ﻿using _Code.MainCode;
+using _Code.MazeGenerator;
 using UnityEditor;
 using UnityEngine;
 
