@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 2799137250991240090}
   - component: {fileID: 5090179988594722159}
   - component: {fileID: 7783468924640999430}
+  - component: {fileID: 2953998262453174586}
   m_Layer: 0
   m_Name: Value
   m_TagString: Untagged
@@ -158,6 +159,20 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Time elapsed:'
+--- !u!114 &2953998262453174586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852271276521498728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 298ab3ef83c54dd09b2b5e14839a74c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _textbox: {fileID: 7783468924640999430}
+  _simpleValue: {fileID: 11400000, guid: db21125cc64c69543841c203a389ff97, type: 2}
 --- !u!1 &2037077409009988772
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,10 +496,10 @@ RectTransform:
   m_Father: {fileID: 6539637482440921446}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -55}
-  m_SizeDelta: {x: -300, y: -250}
+  m_AnchorMin: {x: 0.06, y: 0.065}
+  m_AnchorMax: {x: 0.94, y: 0.835}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &390622338913951026
 CanvasRenderer:
@@ -981,6 +996,7 @@ GameObject:
   - component: {fileID: 7053031581435668072}
   - component: {fileID: 62533502229436957}
   - component: {fileID: 8669193091767727784}
+  - component: {fileID: 288599167571089158}
   m_Layer: 0
   m_Name: Value
   m_TagString: Untagged
@@ -1049,6 +1065,20 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Steps taken:'
+--- !u!114 &288599167571089158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5540482137311382824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b458b28c7bb4b8f8fe6547cc874c05f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _textbox: {fileID: 8669193091767727784}
+  _simpleValue: {fileID: 11400000, guid: 75d9a389d1a7b5b48b194f5f263cbd66, type: 2}
 --- !u!1 &6539637482440921447
 GameObject:
   m_ObjectHideFlags: 0

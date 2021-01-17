@@ -8,7 +8,7 @@ namespace _Code.Observer
     {
         [SerializeField] private Slider _sliderH;
         [SerializeField] private Slider _sliderV;
-        [SerializeField] private MazeGenerator _generator;
+        [SerializeField] private MazeGenerator.MazeGenerator _generator;
 
         private void OnEnable()
         {

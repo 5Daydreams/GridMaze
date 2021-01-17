@@ -1,38 +1,35 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using _Code.MainCode;
+﻿using _Code.MainCode;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class LargeInputBox : MonoBehaviour
+namespace _Code.UIAndUX
 {
-    [SerializeField] private Button _closeWindowButton;
-    [SerializeField] private Button _confirmButton;
-    [SerializeField] private MazeGenerator _maze;
-
-    private void OnEnable()
+    public class LargeInputBox : MonoBehaviour
     {
-        if (!gameObject.activeInHierarchy)
-            return;
-        _closeWindowButton.onClick.AddListener(() => CloseThisWindow());
-        _confirmButton.onClick.AddListener(() =>
+        [SerializeField] private Button _closeWindowButton;
+        [SerializeField] private Button _confirmButton;
+        [SerializeField] private MazeGenerator.MazeGenerator _maze;
+
+        private void OnEnable()
         {
-            _maze.NewMaze();
-            _maze.GenerateMaze();
-            CloseThisWindow();
-        });
-    }
+            if (!gameObject.activeInHierarchy)
+                return;
+            _closeWindowButton.onClick.AddListener(() => CloseThisWindow());
+            _confirmButton.onClick.AddListener(() =>
+            {
+                _maze.NewMaze();
+                CloseThisWindow();
+            });
+        }
     
-    public void CloseThisWindow()
-    {
-        this.gameObject.SetActive(false);
-    }
+        public void CloseThisWindow()
+        {
+            this.gameObject.SetActive(false);
+        }
 
-    public void OpenThisWindow()
-    {
-        this.gameObject.SetActive(true);
+        public void OpenThisWindow()
+        {
+            this.gameObject.SetActive(true);
+        }
     }
 }
