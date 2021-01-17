@@ -22,38 +22,16 @@ namespace _Code.MazeGenerator
 
         private Random rng = new Random();
 
-        protected override Cell<BitArray> RegisterPrefab()
-        {
-            return _cellPrefab;
-        }
-
-        protected override void Start()
-        {
-            base.Start();
-            Reset();
-            GenerateMaze();
-            _onStart.Raise();
-        }
+        #region public methods
 
         public void NewMaze()
         {
             foreach (var cell in _grid)
-            {
                 Destroy(cell.gameObject);
-            }
 
-            Start();
+            SetupNewMaze();
         }
-
-        public void Reset()
-        {
-            _stack.Clear(); //mftu
-            _stack.Push(Vector2Int.zero);
-            _visitedCells = 1;
-            PaintAllCells(Color.black);
-            ClearValues();
-        }
-
+        
         public void PerformStep() // Debug function
         {
             if (_visitedCells < _gridWidth * _gridHeight)
@@ -65,8 +43,55 @@ namespace _Code.MazeGenerator
             SetupAllCells();
             TrackCurrentCell();
         }
+        
+        public override void RandomizeAll()
+        {
+            for (int i = 0; i < _grid.GetLength(0); i++)
+            {
+                for (int j = 0; j < _grid.GetLength(1); j++)
+                {
+                    for (int k = 0; k < _grid[i, j].Value.Length; k++)
+                    {
+                        _grid[i, j].Value[k] = rng.Next(0, i + j + 2) % 2 == 0;
+                    }
+                }
+            }
+        }
 
-        public void GenerateMaze()
+        #endregion
+        
+        protected override Cell<BitArray> GetRegisteredPrefab()
+        {
+            return _cellPrefab;
+        }
+
+        private void Start()
+        {
+            SetupNewMaze();
+        }
+
+        private void SetupNewMaze()
+        {
+            _grid = new Cell<BitArray>[_gridWidth, _gridHeight];
+            RecenterGenerator();
+            CreateEmptyCells();
+            ResetCellParameters();
+            GenerateMaze();
+            _onStart.Raise();
+        }
+        
+        private void ResetCellParameters()
+        {
+            _stack.Clear(); //mftu
+            _stack.Push(Vector2Int.zero);
+            _visitedCells = 1;
+            PaintAllCells(Color.black);
+            ClearValues();
+        }
+
+        #region (Private) maze generation overview 
+
+        private void GenerateMaze()
         {
             while (_visitedCells < _gridWidth * _gridHeight)
             {
@@ -76,7 +101,7 @@ namespace _Code.MazeGenerator
             SetupAllCells();
             CreateMazeEnds();
         }
-
+        
         private void SetupAllCells()
         {
             for (int x = 0; x < _gridWidth; x++)
@@ -105,13 +130,21 @@ namespace _Code.MazeGenerator
             _currExit = Instantiate(_exitPrefab, exitCell.position + new Vector3(+0.25f,+0.25f,0), Quaternion.identity);
         }
 
+        #endregion
+
+
+
+        #region maze generation iteration
+        
         private void RunIteration()
         {
             var currPosition = _stack.Peek();
             BitArray openNeighbours = new BitArray(5);
             openNeighbours.SetAll(false);
 
-            // grid[x,y].Value[0] reads whether the cell's path is open or not
+            // grid[x,y].Value[0] reads whether the cell's central path is open or not
+
+            #region Check for open neighbours on current cell
 
             if (currPosition.y < _gridHeight - 1 &&
                 _grid[currPosition.x, currPosition.y + 1].Value[0] == false) // NorthOpen
@@ -125,11 +158,12 @@ namespace _Code.MazeGenerator
             if (currPosition.x > 0 &&
                 _grid[currPosition.x - 1, currPosition.y].Value[0] == false) // WestOpen
                 openNeighbours[4] = true;
+            
+            #endregion
 
-
-            if (NeighboursContainsTrue(openNeighbours))
+            if (NeighboursAreVacant(openNeighbours))
             {
-                var nextCellDirection = GetDirection(openNeighbours);
+                var nextCellDirection = GetRandomDirection(openNeighbours);
 
                 switch (nextCellDirection)
                 {
@@ -165,7 +199,7 @@ namespace _Code.MazeGenerator
             }
         }
 
-        private bool NeighboursContainsTrue(BitArray array)
+        private bool NeighboursAreVacant(BitArray array)
         {
             for (int i = 1; i < array.Length; i++)
             {
@@ -176,7 +210,7 @@ namespace _Code.MazeGenerator
             return false;
         }
 
-        private int GetDirection(BitArray neighbours)
+        private int GetRandomDirection(BitArray neighbours)
         {
             var directionList = new List<int>();
 
@@ -191,7 +225,9 @@ namespace _Code.MazeGenerator
             var chosenIndex = rng.Next(0, directionList.Count);
             return directionList[chosenIndex];
         }
-
+        
+        #endregion
+        
         private void PaintAllCells(Color32 color)
         {
             for (int i = 0; i < _grid.GetLength(0); i++)
@@ -224,20 +260,6 @@ namespace _Code.MazeGenerator
                         var cell = _grid[i, j] as BitArrayCell;
                         if (cell)
                             cell.ResetCellValues();
-                    }
-                }
-            }
-        }
-
-        public override void RandomizeAll()
-        {
-            for (int i = 0; i < _grid.GetLength(0); i++)
-            {
-                for (int j = 0; j < _grid.GetLength(1); j++)
-                {
-                    for (int k = 0; k < _grid[i, j].Value.Length; k++)
-                    {
-                        _grid[i, j].Value[k] = rng.Next(0, i + j + 2) % 2 == 0;
                     }
                 }
             }

@@ -21,21 +21,14 @@ namespace _Code.GridTypes
             _gridHeight = value;
         }
 
-        protected virtual void Start()
-        {
-            _grid = new Cell<T>[_gridWidth, _gridHeight];
-            RecenterThis();
-            CreateInScene();
-        }
-
-        protected void RecenterThis()
+        protected void RecenterGenerator()
         {
             var offsetPosition = new Vector3(-_gridWidth, -_gridHeight, 0.0f);
             var extraOffset = new Vector3(0, -1.5f, 0);
             this.transform.position = (offsetPosition + extraOffset) * _cellScaleSize.Value * 0.5f;
         }
 
-        protected void CreateInScene()
+        protected void CreateEmptyCells()
         {
             for (int i = 0; i < _gridWidth; i++)
             {
@@ -43,7 +36,7 @@ namespace _Code.GridTypes
                 {
                     var basePos = new Vector3(i * _cellScaleSize.Value, j * _cellScaleSize.Value, 0);
                     var cellPos = basePos + this.transform.position;
-                    var cellPrefab = RegisterPrefab();
+                    var cellPrefab = GetRegisteredPrefab();
                     _grid[i, j] = Instantiate(cellPrefab, cellPos, Quaternion.identity);
                     _grid[i, j].transform.SetParent(this.transform);
                     _grid[i, j].SetCellScale(_cellScaleSize.Value);
@@ -69,6 +62,6 @@ namespace _Code.GridTypes
         }
 
         public abstract void RandomizeAll();
-        protected abstract Cell<T> RegisterPrefab();
+        protected abstract Cell<T> GetRegisteredPrefab();
     }
 }
