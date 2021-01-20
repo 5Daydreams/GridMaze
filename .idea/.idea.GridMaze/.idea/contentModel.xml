@@ -46,7 +46,6 @@
               <e p="Cell.cs" t="Include" />
               <e p="ExitCell.cs" t="Include" />
             </e>
-            <e p="EventLog.cs" t="Include" />
             <e p="Extensions" t="Include">
               <e p="FloatExtension.cs" t="Include" />
             </e>
@@ -57,13 +56,18 @@
               <e p="GridGenerator.cs" t="Include" />
             </e>
             <e p="IntTextboxObserver.cs" t="Include" />
-            <e p="SceneTransition.cs" t="Include" />
+            <e p="ITranslateValueToTextbox.cs" t="Include" />
             <e p="SimpleValues" t="Include">
+              <e p="BoolValue.cs" t="Include" />
               <e p="FloatValue.cs" t="Include" />
               <e p="IntValue.cs" t="Include" />
               <e p="SimpleValue.cs" t="Include" />
             </e>
-            <e p="TranslateValueToTextbox.cs" t="Include" />
+            <e p="SingleScriptables" t="Include">
+              <e p="EventLog.cs" t="Include" />
+              <e p="QuitGame.cs" t="Include" />
+              <e p="SceneTransition.cs" t="Include" />
+            </e>
           </e>
           <e p="UIandUX" t="Include">
             <e p="LargeInputBox.cs" t="Include" />

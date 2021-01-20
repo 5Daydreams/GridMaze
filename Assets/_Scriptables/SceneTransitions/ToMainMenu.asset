@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 529d1b21357964948a39c34e624151ce, type: 3}
   m_Name: ToMainMenu
   m_EditorClassIdentifier: 
-  _targetScene: MainMenu
+  _targetScene: Scene_MainMenu
   _onlyTransition: 1
