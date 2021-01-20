@@ -47,6 +47,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -181,6 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _stepSpeed: 10
   _cellScaleSize: {fileID: 11400000, guid: eb7b3ac59f1a6c7439ff49854142c325, type: 2}
+  _canMove: {fileID: 11400000, guid: 0e6e9708eb74aa444a99ff9e3fe4a6f0, type: 2}
   _animatorController: {fileID: 3723022730106415763}
 --- !u!114 &4987358764284605967
 MonoBehaviour:

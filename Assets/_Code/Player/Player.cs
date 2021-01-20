@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 using _Code.Toolbox;
+using _Code.Toolbox.SimpleValues;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -11,6 +12,8 @@ namespace _Code.MainCode
         [Header("Mechanics")]
         [SerializeField] private float _stepSpeed = 1;
         [SerializeField] private FloatValue _cellScaleSize;
+        [SerializeField] private BoolValue _canMove;
+        
         [Header("Juice Components")]
         [SerializeField] private Animator _animatorController;
         // [SerializeField] private CameraEffects cameraEffects;
@@ -34,6 +37,9 @@ namespace _Code.MainCode
 
         private void Update()
         {
+            if (!_canMove.Value)
+                return;
+            
             ChaseMovePoint();
 
             bool arrivedAtMovePoint =
@@ -83,13 +89,12 @@ namespace _Code.MainCode
 
         private void TryMoving(Vector3 direction)
         {
-            if (_collisionCheckBehavior.CollisionCheck(direction/2))
+            if (_collisionCheckBehavior.CollisionCheck(direction, _cellScaleSize.Value))
                 return;
 
             // StartCoroutine(cameraEffects.ScreenKick(_shakeTime, _downscalingFactor)); // A good value for DS factor was 0.998f, weird....
             _animatorController.Play("Move");
             _movePointBehavior.StepTowards(direction * _cellScaleSize.Value);
-            
         }
     }
 }

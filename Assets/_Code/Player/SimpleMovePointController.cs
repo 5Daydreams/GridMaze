@@ -25,9 +25,9 @@ namespace _Code.MainCode
             _movePoint.position = pos;
         }
 
-        public bool CollisionCheck(Vector3 collisionDirection)
+        public bool CollisionCheck(Vector3 direction, float cellScale)
         {
-            return Physics2D.OverlapCircle(_movePoint.position + collisionDirection/2, 0.1f, _collisionLayer);
+            return Physics2D.OverlapCircle(_movePoint.position + direction*cellScale/2, cellScale/5, _collisionLayer);
         }
     }
 }
