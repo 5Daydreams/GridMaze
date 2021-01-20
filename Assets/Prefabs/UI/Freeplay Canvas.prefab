@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3856365101415818367}
   - component: {fileID: 3856365101415818307}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Freeplay Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,6 +153,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: _Code.MazeGenerator.MazeGenerator, Scripts
       objectReference: {fileID: 0}
+    - target: {fileID: 8733741759484766467, guid: 6e66fea3bf426144686d51ef135a3bae,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8733741759703220665, guid: 6e66fea3bf426144686d51ef135a3bae,
         type: 3}
       propertyPath: m_Pivot.x
@@ -261,7 +266,7 @@ PrefabInstance:
     - target: {fileID: 8733741759703220666, guid: 6e66fea3bf426144686d51ef135a3bae,
         type: 3}
       propertyPath: m_Name
-      value: Header Stripe
+      value: Freeplay Header Stripe
       objectReference: {fileID: 0}
     - target: {fileID: 8733741759894298759, guid: 6e66fea3bf426144686d51ef135a3bae,
         type: 3}
@@ -280,28 +285,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8733741759894298776, guid: 6e66fea3bf426144686d51ef135a3bae,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8733741759894298776, guid: 6e66fea3bf426144686d51ef135a3bae,
-        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 3856365101209986875}
-    - target: {fileID: 8733741759894298776, guid: 6e66fea3bf426144686d51ef135a3bae,
+    - target: {fileID: 8733741759894298777, guid: 6e66fea3bf426144686d51ef135a3bae,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 8733741759894298776, guid: 6e66fea3bf426144686d51ef135a3bae,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8733741759894298776, guid: 6e66fea3bf426144686d51ef135a3bae,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e66fea3bf426144686d51ef135a3bae, type: 3}
@@ -462,6 +452,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6108497539402482162, guid: a4286563d50732e4aa06dc24e0872b33,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6108497539719468636, guid: a4286563d50732e4aa06dc24e0872b33,
         type: 3}
