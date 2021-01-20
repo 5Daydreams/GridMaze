@@ -74,6 +74,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 6ff4e46205c1aea47a2e899c19c6dfd3, type: 2}
+        m_TargetAssemblyTypeName: 
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:

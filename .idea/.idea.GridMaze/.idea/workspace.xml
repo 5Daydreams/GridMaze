@@ -20,26 +20,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f6955ad-3531-4d31-9408-02bb7b1d316d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/Extensions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/Extensions/FloatExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/Extensions/FloatExtension.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scriptables/SceneTransitions/ToMainMenu.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scriptables/SceneTransitions/ToMainMenu.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/BoolValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/BoolValue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/QuitGame.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/QuitGame.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelClearedPopup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelClearedPopup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HeaderBar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HeaderBar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelClearedPopup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelClearedPopup.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelConfigReader.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelConfigReader.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Freeplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Freeplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Freeplay.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Freeplay.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Code/MazeGenerator/MazeGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MazeGenerator/MazeGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Observer/SliderToGeneratorObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Observer/SliderToGeneratorObserver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/FloatTextboxObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/FloatTextboxObserver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Observer/MazeStatsTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Observer/MazeStatsTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Player/Interfaces/ICollisionCheckBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Player/Interfaces/ICollisionCheckBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Player/SimpleMovePointController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Player/SimpleMovePointController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/EventLog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/EventLog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/EventLog.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/EventLog.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/IntTextboxObserver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/IntTextboxObserver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/UIandUX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/UIandUX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/UIandUX/LargeInputBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/UIandUX/LargeInputBox.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/Floats/TimeElapsed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scriptables/Floats/TimeElapsed.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/SceneTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/SceneTransition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/SceneTransition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/SceneTransition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/FloatValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/FloatValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/SimpleValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/SimpleValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/EventConsoleLog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/EventConsoleLog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/Floats.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/Floats/StepsTaken.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/Floats/StepsTaken.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/Floats/TimeElapsed.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/Floats/TimeElapsed.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/SceneTransitions/ToFreeplay.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scriptables/SceneTransitions/ToFreeplay.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/SceneTransitions/ToMainMenu.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scriptables/SceneTransitions/ToMainMenu.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +87,20 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BD515F-D2A0-4526-8509-D23726DE0F46/df/576d30ab/BitArray.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/1f/1f0c92ca/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Tests/PlayMode/MovementTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Code/Toolbox/TranslateValueToTextbox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Toolbox/ITranslateValueToTextbox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/DoubleDashStudios/Projetos/IDJ/Unity/IDJ/Assets/_CustomAssets/_Code/Move/LerpRigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Tests/EditMode/DirectionTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Code/Toolbox/EventLog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/EventLog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/DoubleDashStudios/Projetos/IDJ/Unity/IDJ/Assets/_CustomAssets/_Code/Interest Object System/ConeGeneration/ConeHighlightGenerator.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_Code/Observer/UnityVoidEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Observer/VoidEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Observer/UnityVoidListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Observer/VoidListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Observer/VoidEventListener.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Observer/BaseGameEventListener.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Observer/BaseGameEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Observer/SliderToGeneratorObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/CellTypes/ExitCell.cs" />
         <option value="$PROJECT_DIR$/Assets/_Tests/EditMode/DirectionTests.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/GridTypes/BoolGridGenerator.cs" />
@@ -91,7 +110,6 @@
         <option value="$PROJECT_DIR$/Assets/_Code/FloatValue.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/GridTypes/GridGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/ISimpleCollisionCheck.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/EventLog.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/IMovePointBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces/ICollisionChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces/ICollisionCheckBehavior.cs" />
@@ -105,26 +123,33 @@
         <option value="$PROJECT_DIR$/Assets/_Code/Observer/Listener/BaseGameEventListener.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValue.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/FloatValue.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/FloatValue.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/MazeStatsTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Observer/Event/BaseGameEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SceneTransition.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Player/SimpleMovePointController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/TextboxDynamicValueObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/ITranslateValueToTextbox.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/SimpleValue.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/CustomGrid.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Editor/TranslateValueToTextboxEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/TranslateValueToTextbox.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/IntTextboxObserver.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/FloatTextboxObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/Extension/FloatExtension.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/UIandUX/LargeInputBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/Extensions/FloatExtension.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/UIAndUX/LargeInputBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Observer/SliderToGeneratorObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/Extensions/FloatExtension.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/TranslateValueToTextbox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/TranslateValueToTextboxEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/FloatTextboxObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/IntTextboxObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/EventLog.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Player/Interfaces/ICollisionCheckBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Player/SimpleMovePointController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/QuitGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/FloatValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/BoolValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/SimpleValue.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MazeGenerator/MazeGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Player/Player.cs" />
       </list>
     </option>
   </component>
@@ -141,6 +166,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -161,10 +187,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3704">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19348">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3704" />
+      <option name="pid" value="19348" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -218,7 +244,8 @@
       <workItem from="1610673195299" duration="2185000" />
       <workItem from="1610810461312" duration="5812000" />
       <workItem from="1610819082411" duration="1382000" />
-      <workItem from="1610830278250" duration="8465000" />
+      <workItem from="1610830278250" duration="11615000" />
+      <workItem from="1610903147723" duration="10228000" />
     </task>
     <servers />
   </component>
@@ -243,78 +270,86 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1391" height="152" key="GridCell.Tab.0.bottom" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.0.bottom" timestamp="1610919959698">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.0.center" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1610919959698" />
+    <state width="1391" height="152" key="GridCell.Tab.0.center" timestamp="1610919959698">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.0.left" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1610919959698" />
+    <state width="1391" height="152" key="GridCell.Tab.0.left" timestamp="1610919959698">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.0.right" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1610919959698" />
+    <state width="1391" height="152" key="GridCell.Tab.0.right" timestamp="1610919959698">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.1.bottom" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1610919959698" />
+    <state width="1391" height="152" key="GridCell.Tab.1.bottom" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.1.center" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state width="1391" height="152" key="GridCell.Tab.1.center" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.1.left" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state width="1391" height="152" key="GridCell.Tab.1.left" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.1.right" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state width="1391" height="152" key="GridCell.Tab.1.right" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.2.bottom" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state width="1391" height="152" key="GridCell.Tab.2.bottom" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.2.center" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state width="1391" height="152" key="GridCell.Tab.2.center" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.2.left" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state width="1391" height="152" key="GridCell.Tab.2.left" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.2.right" timestamp="1610838667119">
+    <state width="1391" height="152" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state width="1391" height="152" key="GridCell.Tab.2.right" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1610838667119" />
-    <state width="1391" height="152" key="GridCell.Tab.3.bottom" timestamp="1610838667120">
+    <state width="1391" height="152" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state width="1391" height="152" key="GridCell.Tab.3.bottom" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1610838667120" />
-    <state width="1391" height="152" key="GridCell.Tab.3.center" timestamp="1610838667120">
+    <state width="1391" height="152" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state width="1391" height="152" key="GridCell.Tab.3.center" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1610838667120" />
-    <state width="1391" height="152" key="GridCell.Tab.3.left" timestamp="1610838667120">
+    <state width="1391" height="152" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state width="1391" height="152" key="GridCell.Tab.3.left" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1610838667120" />
-    <state width="1391" height="152" key="GridCell.Tab.3.right" timestamp="1610838667120">
+    <state width="1391" height="152" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state width="1391" height="152" key="GridCell.Tab.3.right" timestamp="1610919959699">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1391" height="152" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1610838667120" />
-    <state x="539" y="123" key="RiderGenerateDialog" timestamp="1610811594277">
+    <state width="1391" height="152" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1610919959699" />
+    <state x="539" y="123" key="RiderGenerateDialog" timestamp="1610904101683">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="539" y="123" key="RiderGenerateDialog/0.0.1440.860@0.0.1440.860" timestamp="1610811594277" />
+    <state x="539" y="123" key="RiderGenerateDialog/0.0.1440.860@0.0.1440.860" timestamp="1610904101683" />
+    <state x="92" y="92" width="1256" height="676" key="VCS.FileHistoryDialog" timestamp="1610850486578">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="92" y="92" width="1256" height="676" key="VCS.FileHistoryDialog/0.0.1440.860@0.0.1440.860" timestamp="1610850486578" />
     <state x="0" y="0" width="1407" height="841" key="dock-window-1" timestamp="1610841182398">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="0" y="0" width="1407" height="841" key="dock-window-1/0.0.1440.860@0.0.1440.860" timestamp="1610841182398" />
+    <state x="376" y="195" key="run.anything.popup" timestamp="1610850317774">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="376" y="195" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1610850317774" />
     <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1609907344850">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
