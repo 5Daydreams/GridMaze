@@ -31,7 +31,7 @@ namespace _Code.MazeGenerator
 
             SetupNewMaze();
         }
-        
+
         public void PerformStep() // Debug function
         {
             if (_visitedCells < _gridWidth * _gridHeight)
@@ -43,7 +43,7 @@ namespace _Code.MazeGenerator
             SetupAllCells();
             TrackCurrentCell();
         }
-        
+
         public override void RandomizeAll()
         {
             for (int i = 0; i < _grid.GetLength(0); i++)
@@ -59,7 +59,7 @@ namespace _Code.MazeGenerator
         }
 
         #endregion
-        
+
         protected override Cell<BitArray> GetRegisteredPrefab()
         {
             return _cellPrefab;
@@ -79,7 +79,7 @@ namespace _Code.MazeGenerator
             GenerateMaze();
             _onStart.Raise();
         }
-        
+
         private void ResetCellParameters()
         {
             _stack.Clear(); //mftu
@@ -89,7 +89,7 @@ namespace _Code.MazeGenerator
             ClearValues();
         }
 
-        #region (Private) maze generation overview 
+        #region (Private) maze generation overview
 
         private void GenerateMaze()
         {
@@ -101,7 +101,7 @@ namespace _Code.MazeGenerator
             SetupAllCells();
             CreateMazeEnds();
         }
-        
+
         private void SetupAllCells()
         {
             for (int x = 0; x < _gridWidth; x++)
@@ -123,19 +123,20 @@ namespace _Code.MazeGenerator
                 _currPlayer = Instantiate(_playerPrefab, playerStartingPosition + offset, Quaternion.identity);
             _currPlayer.SetPosition(playerStartingPosition + offset);
             _grid[_gridWidth - 1, 0].Value[3] = true;
-    
-            var exitCell = _grid[_gridWidth - 1, 0].gameObject.transform;
+
+            var exitCell = _grid[_gridWidth - 1, 0] as BitArrayCell;
+            if (exitCell)
+                exitCell.CellSetup(_pathWidth);
             if (_currExit != null)
                 Destroy(_currExit.gameObject);
-            _currExit = Instantiate(_exitPrefab, exitCell.position + new Vector3(+0.25f,+0.25f,0), Quaternion.identity);
+            _currExit = Instantiate(_exitPrefab, exitCell.transform.position + new Vector3(+0.25f, +0.25f, 0), Quaternion.identity);
         }
 
         #endregion
 
 
-
         #region maze generation iteration
-        
+
         private void RunIteration()
         {
             var currPosition = _stack.Peek();
@@ -158,7 +159,7 @@ namespace _Code.MazeGenerator
             if (currPosition.x > 0 &&
                 _grid[currPosition.x - 1, currPosition.y].Value[0] == false) // WestOpen
                 openNeighbours[4] = true;
-            
+
             #endregion
 
             if (NeighboursAreVacant(openNeighbours))
@@ -225,9 +226,9 @@ namespace _Code.MazeGenerator
             var chosenIndex = rng.Next(0, directionList.Count);
             return directionList[chosenIndex];
         }
-        
+
         #endregion
-        
+
         private void PaintAllCells(Color32 color)
         {
             for (int i = 0; i < _grid.GetLength(0); i++)
