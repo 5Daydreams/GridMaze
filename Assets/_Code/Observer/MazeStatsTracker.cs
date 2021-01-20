@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using _Code;
 using _Code.Toolbox;
+using _Code.Toolbox.SimpleValues;
 using UnityEngine;
 
 public class MazeStatsTracker : MonoBehaviour
