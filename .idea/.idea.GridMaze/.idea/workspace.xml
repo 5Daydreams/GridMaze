@@ -20,51 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f6955ad-3531-4d31-9408-02bb7b1d316d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/BoolValue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/BoolValue.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/QuitGame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/QuitGame.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvas.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvas.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HeaderBar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HeaderBar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelClearedPopup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelClearedPopup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelConfigReader.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelConfigReader.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Freeplay.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Freeplay.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/MazeGenerator/MazeGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MazeGenerator/MazeGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Observer/MazeStatsTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Observer/MazeStatsTracker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Player/Interfaces/ICollisionCheckBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Player/Interfaces/ICollisionCheckBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Player/SimpleMovePointController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Player/SimpleMovePointController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/EventLog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/EventLog.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/EventLog.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/EventLog.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/SceneTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/SceneTransition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/SceneTransition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/SceneTransition.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/FloatValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/FloatValue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/SimpleValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/SimpleValue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/EventConsoleLog.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/EventConsoleLog.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/Floats.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/Floats/StepsTaken.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/Floats/StepsTaken.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/Floats/TimeElapsed.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/Floats/TimeElapsed.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/SceneTransitions/ToFreeplay.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scriptables/SceneTransitions/ToFreeplay.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/SceneTransitions/ToMainMenu.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scriptables/SceneTransitions/ToMainMenu.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,26 +31,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/_Code/Juice/CameraEffects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/DoubleDashStudios/Projetos/IDJ/Unity/IDJ/Assets/_CustomAssets/_Code/Interest Object System/ConeGeneration/AdvCreatorVector2Translator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Event/VoidEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Event/BaseGameEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Listener/BaseGameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C84609C9-21CB-4884-81D7-D8A5FCDF9588/5d/01de4597/InspectorElement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Listener/VoidEventListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/5c/468fc2a7/LoadSceneMode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Listener/IGameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BD515F-D2A0-4526-8509-D23726DE0F46/df/576d30ab/BitArray.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/1f/1f0c92ca/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Tests/PlayMode/MovementTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Code/Toolbox/ITranslateValueToTextbox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/DoubleDashStudios/Projetos/IDJ/Unity/IDJ/Assets/_CustomAssets/_Code/Move/LerpRigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Tests/EditMode/DirectionTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Listener/BaseGameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/5c/468fc2a7/LoadSceneMode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Event/VoidEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Listener/VoidEventListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/EventLog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/1f/1f0c92ca/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Event/BaseGameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/DoubleDashStudios/Projetos/idj/Unity/IDJ/Assets/_CustomAssets/_Code/Move/LerpRigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Tests/EditMode/DirectionTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Juice/CameraEffects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/DoubleDashStudios/Projetos/idj/Unity/IDJ/Assets/_CustomAssets/_Code/Interest Object System/ConeGeneration/ConeHighlightGenerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/DoubleDashStudios/Projetos/idj/Unity/IDJ/Assets/_CustomAssets/_Code/Interest Object System/ConeGeneration/AdvCreatorVector2Translator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Tests/PlayMode/MovementTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BD515F-D2A0-4526-8509-D23726DE0F46/df/576d30ab/BitArray.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/DoubleDashStudios/Projetos/IDJ/Unity/IDJ/Assets/_CustomAssets/_Code/Interest Object System/ConeGeneration/ConeHighlightGenerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -187,10 +143,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19348">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19348" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -246,6 +202,7 @@
       <workItem from="1610819082411" duration="1382000" />
       <workItem from="1610830278250" duration="11615000" />
       <workItem from="1610903147723" duration="10228000" />
+      <workItem from="1618413052319" duration="770000" />
     </task>
     <servers />
   </component>
