@@ -340,6 +340,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1065613568544382467, guid: 1bcc87fef3e36a947b5930bf52e8689d,
+        type: 3}
+      propertyPath: m_Text
+      value: Time Attack
+      objectReference: {fileID: 0}
     - target: {fileID: 1065613569828195912, guid: 1bcc87fef3e36a947b5930bf52e8689d,
         type: 3}
       propertyPath: m_Pivot.x
@@ -449,6 +454,47 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Menu Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065613570119627804, guid: 1bcc87fef3e36a947b5930bf52e8689d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065613570119627804, guid: 1bcc87fef3e36a947b5930bf52e8689d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065613570119627804, guid: 1bcc87fef3e36a947b5930bf52e8689d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: d91a84d448eee474d93622b5dd2b133d,
+        type: 2}
+    - target: {fileID: 1065613570119627804, guid: 1bcc87fef3e36a947b5930bf52e8689d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065613570119627804, guid: 1bcc87fef3e36a947b5930bf52e8689d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065613570119627804, guid: 1bcc87fef3e36a947b5930bf52e8689d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneTransition, Scripts
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065613570119627804, guid: 1bcc87fef3e36a947b5930bf52e8689d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065613570119627806, guid: 1bcc87fef3e36a947b5930bf52e8689d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bcc87fef3e36a947b5930bf52e8689d, type: 3}

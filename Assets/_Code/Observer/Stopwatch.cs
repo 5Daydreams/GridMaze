@@ -6,10 +6,9 @@ using _Code.Toolbox;
 using _Code.Toolbox.SimpleValues;
 using UnityEngine;
 
-public class MazeStatsTracker : MonoBehaviour
+public class Stopwatch : MonoBehaviour
 {
     [SerializeField] private FloatValue _timeElapsed;
-    [SerializeField] private IntValue _stepsTaken;
     private bool _isRunning = false;
 
     private void FixedUpdate()
@@ -18,18 +17,7 @@ public class MazeStatsTracker : MonoBehaviour
             return;
         _timeElapsed.Value += Time.deltaTime;
     }
-
-    public void ResetRunStatistics()
-    {
-        _stepsTaken.Value = 0;
-        _timeElapsed.Value = 0;
-    }
-
-    public void RegisterStep()
-    {
-        _stepsTaken.Value++;
-    }
-
+    
     public void StopTimer()
     {
         _isRunning = false;
@@ -39,5 +27,4 @@ public class MazeStatsTracker : MonoBehaviour
     {
         _isRunning = true;
     }
-    
 }

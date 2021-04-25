@@ -121,7 +121,9 @@ namespace _Code.MazeGenerator
             var offset = new Vector3(1, 1, 0) * _cellScaleSize.Value / 2;
             if (!_currPlayer)
                 _currPlayer = Instantiate(_playerPrefab, playerStartingPosition + offset, Quaternion.identity);
+            _currPlayer.gameObject.SetActive(false);
             _currPlayer.SetPosition(playerStartingPosition + offset);
+            _currPlayer.gameObject.SetActive(true);
             _grid[_gridWidth - 1, 0].Value[3] = true;
 
             var exitCell = _grid[_gridWidth - 1, 0] as BitArrayCell;

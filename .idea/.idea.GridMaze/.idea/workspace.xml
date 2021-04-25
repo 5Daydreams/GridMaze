@@ -20,7 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f6955ad-3531-4d31-9408-02bb7b1d316d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Observer/CountdownTimer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Observer/CountdownTimer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GridMaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/TranslateValueToTextboxEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/TranslateValueToTextboxEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Exit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelConfigReader.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/LevelConfigReader.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Freeplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Freeplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Sandbox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/MazeGenerator/MazeGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/MazeGenerator/MazeGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Observer/MazeStatsTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Observer/Stopwatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Observer/MazeStatsTracker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Observer/Stopwatch.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptables/SimpleValues/AllowPlayerMovement.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scriptables/SimpleValues/AllowPlayerMovement.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +62,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Code/Observer/Event/BaseGameEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/DoubleDashStudios/Projetos/idj/Unity/IDJ/Assets/_CustomAssets/_Code/Move/LerpRigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Tests/EditMode/DirectionTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Editor/MazeGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Code/Juice/CameraEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/DoubleDashStudios/Projetos/idj/Unity/IDJ/Assets/_CustomAssets/_Code/Interest Object System/ConeGeneration/ConeHighlightGenerator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/DoubleDashStudios/Projetos/idj/Unity/IDJ/Assets/_CustomAssets/_Code/Interest Object System/ConeGeneration/AdvCreatorVector2Translator.cs" root0="SKIP_HIGHLIGHTING" />
@@ -55,10 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_Code/Observer/BaseGameEventListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Observer/BaseGameEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/CellTypes/ExitCell.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Tests/EditMode/DirectionTests.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/GridTypes/BoolGridGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Tests/PlayMode/MovementTest.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/IMovement.cs" />
@@ -71,7 +85,6 @@
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Interfaces/ICollisionCheckBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Juice/CameraShake.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Juice/CameraEffects.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Observer/Event/VoidEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Observer/Listener/IGameEventListener.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/MazeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/MainCode/Player.cs" />
@@ -90,7 +103,6 @@
         <option value="$PROJECT_DIR$/Assets/_Code/UIandUX/LargeInputBox.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/UIAndUX/LargeInputBox.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Observer/SliderToGeneratorObserver.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/Extensions/FloatExtension.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/TranslateValueToTextbox.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/TranslateValueToTextboxEditor.cs" />
@@ -100,12 +112,18 @@
         <option value="$PROJECT_DIR$/Assets/_Code/Player/Interfaces/ICollisionCheckBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Player/SimpleMovePointController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SingleScriptables/QuitGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/FloatValue.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/BoolValue.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/SimpleValue.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Code/MazeGenerator/MazeGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Code/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/SimpleValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MazeGenerator/SeedValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/GridTypes/GridGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/MazeGenerator/MazeGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Toolbox/SimpleValues/IntValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Observer/MazeStatsTracker.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Observer/Stopwatch.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Observer/Event/VoidEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Code/Observer/CountdownTimer.cs" />
       </list>
     </option>
   </component>
@@ -203,6 +221,9 @@
       <workItem from="1610830278250" duration="11615000" />
       <workItem from="1610903147723" duration="10228000" />
       <workItem from="1618413052319" duration="770000" />
+      <workItem from="1619280120892" duration="2149000" />
+      <workItem from="1619329682294" duration="1465000" />
+      <workItem from="1619379955634" duration="3662000" />
     </task>
     <servers />
   </component>
