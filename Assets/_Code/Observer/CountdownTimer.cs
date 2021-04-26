@@ -11,11 +11,6 @@ namespace _Code.Observer
         [SerializeField] private VoidEvent _onTimerFinished;
         private bool _isRunning = false;
 
-        private void OnEnable()
-        {
-            _timeRemaining.Value = startingTime;
-        }
-
         private void FixedUpdate()
         {
             if (_timeRemaining.Value <= 0)

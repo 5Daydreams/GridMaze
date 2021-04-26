@@ -5,17 +5,20 @@
         _MainTex ("Texture", 2D) = "white" {}
         _BaseColor ("BaseColor", Color) = (1,0,0,0)
         _WaveColor ("WaveColor", Color) = (1,1,1,0)
+        _WaveValue ("Wave Value", float) = 0
+        _WaveTrail ("Wave Trail", float) = 1
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
-
+        Tags { "RenderType"="Opaque" "Queue"="Transparent"}
+        Blend SrcAlpha OneMinusSrcAlpha
+        
         Pass
         {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-
+            
             #include "UnityCG.cginc"
 
             struct appdata
@@ -34,6 +37,8 @@
             float4 _WaveColor;
             sampler2D _MainTex;
             float4 _MainTex_ST;
+            float _WaveValue;
+            float _WaveTrail;
 
             v2f vert (appdata v)
             {
@@ -45,9 +50,16 @@
 
             fixed4 frag (v2f i) : SV_Target
             {
+                float4 col = tex2D(_MainTex, i.uv.xy);
                 float value = i.uv.x + i.uv.y;
+
+                float waveTrail = smoothstep(_WaveValue - _WaveTrail, _WaveValue, value);
+                float waveFront = step(value, _WaveValue);
+                float wave = waveFront * waveTrail;
                 
-                return;
+                float4 color = lerp(_BaseColor,_WaveColor, wave);
+                
+                return float4(color);
             }
             ENDCG
         }

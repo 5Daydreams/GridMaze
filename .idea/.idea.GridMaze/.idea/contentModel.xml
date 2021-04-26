@@ -47,12 +47,18 @@
             <e p="SimpleMovePointController.cs" t="Include" />
           </e>
           <e p="Scripts.asmdef" t="Include" />
+          <e p="ShaderPostProcessing" t="Include">
+            <e p="ApplyWaveEffectOnMaterial.cs" t="Include" />
+          </e>
           <e p="Toolbox" t="Include">
             <e p="CellTypes" t="Include">
               <e p="BitArrayCell.cs" t="Include" />
               <e p="BoolCell.cs" t="Include" />
               <e p="Cell.cs" t="Include" />
               <e p="ExitCell.cs" t="Include" />
+            </e>
+            <e p="EventInvokers" t="Include">
+              <e p="TriggerOnUnityEvent.cs" t="Include" />
             </e>
             <e p="Extensions" t="Include">
               <e p="FloatExtension.cs" t="Include" />
@@ -66,16 +72,21 @@
             <e p="IntTextboxObserver.cs" t="Include" />
             <e p="ITranslateValueToTextbox.cs" t="Include" />
             <e p="SetTimeAttackMazeDimensions.cs" t="Include" />
-            <e p="SimpleValues" t="Include">
-              <e p="BoolValue.cs" t="Include" />
-              <e p="FloatValue.cs" t="Include" />
-              <e p="IntValue.cs" t="Include" />
-              <e p="SimpleValue.cs" t="Include" />
-            </e>
             <e p="SingleScriptables" t="Include">
               <e p="EventLog.cs" t="Include" />
               <e p="QuitGame.cs" t="Include" />
               <e p="SceneTransition.cs" t="Include" />
+            </e>
+            <e p="TimeIncrementBasedOnDifficulty.cs" t="Include" />
+            <e p="ValueHolders" t="Include">
+              <e p="BoolValue.cs" t="Include" />
+              <e p="FloatValue.cs" t="Include" />
+              <e p="IntValue.cs" t="Include" />
+              <e p="SimpleValue.cs" t="Include" />
+              <e p="TimeAttackDifficulty" t="Include">
+                <e p="DifficultyHolder.cs" t="Include" />
+                <e p="DifficultySettings.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="UIandUX" t="Include">

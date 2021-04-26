@@ -27,4 +27,10 @@ public class Stopwatch : MonoBehaviour
     {
         _isRunning = true;
     }
+
+    public void StartTimer()
+    {
+        _timeElapsed.SetValue(0);
+        ResumeTimer();
+    }
 }

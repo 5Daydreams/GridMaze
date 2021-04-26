@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61f522d862a7cf0408a73c80c6bced69, type: 3}
-  m_Name: TimeRemaining
+  m_Script: {fileID: 11500000, guid: 427c30b4a4014d0fac867c18b8f725a4, type: 3}
+  m_Name: Difficulty_Hard
   m_EditorClassIdentifier: 
-  Value: 120
+  StartingTime: 45
+  Increment: 10
+  MazeHeight: 10
+  MazeWidth: 8

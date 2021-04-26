@@ -9,12 +9,13 @@ using UnityEngine;
 public class SetTimeAttackMazeDimensions : MonoBehaviour
 {
     [SerializeField] private MazeGenerator _generator;
-    [SerializeField] private IntValue _width;
-    [SerializeField] private IntValue _height;
+    [SerializeField] private DifficultyHolder _difficultyHolder;
     
-    private void Start()
+    public void SetMazeDimensions()
     {
-        _generator.SetGridHeight(_width.Value);
-        _generator.SetGridHeight(_height.Value);
+        var difficulty = _difficultyHolder.GetDifficulty();
+        
+        _generator.SetGridHeight(difficulty.MazeWidth);
+        _generator.SetGridHeight(difficulty.MazeHeight);
     }
 }
