@@ -7,7 +7,7 @@
       <e p="Assets" t="Include">
         <e p="_Code" t="Include">
           <e p="_Shaders" t="Include">
-            <e p="PersistentTrail.shader" t="Include" />
+            <e p="SpriteWave.shader" t="Include" />
           </e>
           <e p="Editor" t="Include">
             <e p="MazeGeneratorEditor.cs" t="Include" />
@@ -25,6 +25,7 @@
               <e p="BaseGameEvent.cs" t="Include" />
               <e p="VoidEvent.cs" t="Include" />
             </e>
+            <e p="FloatTextboxUpdater.cs" t="Include" />
             <e p="Listener" t="Include">
               <e p="BaseGameEventListener.cs" t="Include" />
               <e p="IGameEventListener.cs" t="Include" />
@@ -64,6 +65,7 @@
             </e>
             <e p="IntTextboxObserver.cs" t="Include" />
             <e p="ITranslateValueToTextbox.cs" t="Include" />
+            <e p="SetTimeAttackMazeDimensions.cs" t="Include" />
             <e p="SimpleValues" t="Include">
               <e p="BoolValue.cs" t="Include" />
               <e p="FloatValue.cs" t="Include" />

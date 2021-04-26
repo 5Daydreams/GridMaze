@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: ToFreeplay
   m_EditorClassIdentifier: 
   _targetScene: Scene_Freeplay
-  _onlyTransition: 0
+  _onlyTransition: 1

@@ -1,25 +1,33 @@
-﻿using _Code.Toolbox.SimpleValues;
+﻿using System;
+using _Code.Toolbox.SimpleValues;
 using UnityEngine;
 
 namespace _Code.Observer
 {
     public class CountdownTimer : MonoBehaviour
     {
+        [SerializeField] private float startingTime;
         [SerializeField] private FloatValue _timeRemaining;
         [SerializeField] private VoidEvent _onTimerFinished;
         private bool _isRunning = false;
 
+        private void OnEnable()
+        {
+            _timeRemaining.Value = startingTime;
+        }
+
         private void FixedUpdate()
         {
-            if (!_isRunning)
-                return;
-            _timeRemaining.Value -= Time.deltaTime;
-
             if (_timeRemaining.Value <= 0)
             {
+                _timeRemaining.Value = 0;
                 _isRunning = false;
                 _onTimerFinished.Raise();
             }
+            
+            if (!_isRunning)
+                return;
+            _timeRemaining.Value -= Time.deltaTime;
         }
 
         public void StopTimer()
@@ -30,6 +38,12 @@ namespace _Code.Observer
         public void ResumeTimer()
         {
             _isRunning = true;
+        }
+
+        public void StartCountdown()
+        {
+            _timeRemaining.Value = startingTime;
+            ResumeTimer();
         }
     }
 }
