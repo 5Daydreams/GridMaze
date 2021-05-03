@@ -1,12 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-[CreateAssetMenu(menuName = "CustomScriptables/DebugMessager")]
-public class EventLog : ScriptableObject
+namespace _Code.Toolbox.SingleScriptables
 {
-    public void ConsoleLog(string message)
+    [CreateAssetMenu(menuName = "CustomScriptables/DebugMessager")]
+    public class EventLog : ScriptableObject
     {
-        Debug.Log(message);
+        public void ConsoleLog(string message)
+        {
+            Debug.Log(message);
+        }
     }
 }

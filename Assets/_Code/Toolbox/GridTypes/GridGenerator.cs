@@ -1,8 +1,8 @@
-﻿using _Code.Toolbox;
-using _Code.Toolbox.SimpleValues;
+﻿using _Code.Toolbox.CellTypes;
+using _Code.Toolbox.ValueHolders;
 using UnityEngine;
 
-namespace _Code.GridTypes
+namespace _Code.Toolbox.GridTypes
 {
     [System.Serializable]
     public abstract class GridGenerator<T> : MonoBehaviour

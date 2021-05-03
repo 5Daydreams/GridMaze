@@ -1,20 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using _Code.Toolbox.SimpleValues;
-using UnityEngine;
+﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "DifficultyHolder", menuName = "CustomScriptables/StructValue/DifficultyHolder")]
-public class DifficultyHolder : ScriptableObject
+namespace _Code.Toolbox.ValueHolders.TimeAttackDifficulty
 {
-    [SerializeField] private DifficultySettings _difficulty;
-
-    public void SetChosenDifficulty(DifficultySettings setting)
+    [CreateAssetMenu(fileName = "DifficultyHolder", menuName = "CustomScriptables/StructValue/DifficultyHolder")]
+    public class DifficultyHolder : ScriptableObject
     {
-        _difficulty = setting;
-    }
+        [SerializeField] private DifficultySettings _difficulty;
 
-    public DifficultySettings GetDifficulty()
-    {
-        return _difficulty;
+        public void SetChosenDifficulty(DifficultySettings setting)
+        {
+            _difficulty = setting;
+        }
+
+        public DifficultySettings GetDifficulty()
+        {
+            return _difficulty;
+        }
     }
 }

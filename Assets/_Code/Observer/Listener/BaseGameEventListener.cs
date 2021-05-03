@@ -1,55 +1,57 @@
 ﻿using System;
 using System.Collections.Generic;
 using _Code.Observer.Event;
-using _Code.Observer.Listener;
 using UnityEngine;
 using UnityEngine.Events;
 
-public abstract class BaseGameEventListener<T, E, UER> : MonoBehaviour,
-    IGameEventListener<T> where E : BaseGameEvent<T> where UER : UnityEvent<T>
+namespace _Code.Observer.Listener
 {
-    [SerializeField] private E _gameEvent;
-    public E GameEvent => _gameEvent;
-    [SerializeField] private UER UnityEventResponse;
-
-    private void OnEnable()
+    public abstract class BaseGameEventListener<T, E, UER> : MonoBehaviour,
+        IGameEventListener<T> where E : BaseGameEvent<T> where UER : UnityEvent<T>
     {
-        if (_gameEvent == null)
-            return;
+        [SerializeField] private E _gameEvent;
+        public E GameEvent => _gameEvent;
+        [SerializeField] private UER UnityEventResponse;
 
-        GameEvent.RegisterListener(this);
-        // foreach (var singleEvent in GameEvent)
-        // {
-        //     singleEvent.RegisterListener(this);
-        // }
+        private void OnEnable()
+        {
+            if (_gameEvent == null)
+                return;
+
+            GameEvent.RegisterListener(this);
+            // foreach (var singleEvent in GameEvent)
+            // {
+            //     singleEvent.RegisterListener(this);
+            // }
+        }
+
+        private void OnDisable()
+        {
+            if (_gameEvent == null)
+                return;
+            GameEvent.UnregisterListener(this);
+        
+            // foreach (var singleEvent in GameEvent)
+            // {
+            //     singleEvent.UnregisterListener(this);
+            // }
+        }
+
+        public void OnEventRaised(T item)
+        {
+            UnityEventResponse?.Invoke(item);
+        
+            // foreach (var response in UnityEventResponse)
+            // {
+            //     response?.Invoke(item);
+            // }
+        }
     }
 
-    private void OnDisable()
+    [Serializable]
+    public struct EventAndResponse<T, E, UER> where E : BaseGameEvent<T> where UER : UnityEvent<T>
     {
-        if (_gameEvent == null)
-            return;
-        GameEvent.UnregisterListener(this);
-        
-        // foreach (var singleEvent in GameEvent)
-        // {
-        //     singleEvent.UnregisterListener(this);
-        // }
-    }
-
-    public void OnEventRaised(T item)
-    {
-        UnityEventResponse?.Invoke(item);
-        
-        // foreach (var response in UnityEventResponse)
-        // {
-        //     response?.Invoke(item);
-        // }
+        public E gameEvent;
+        public UER UnityEventResponse;
     }
 }
-
-[Serializable]
-public struct EventAndResponse<T, E, UER> where E : BaseGameEvent<T> where UER : UnityEvent<T>
-{
-    public E gameEvent;
-    public UER UnityEventResponse;
-} 

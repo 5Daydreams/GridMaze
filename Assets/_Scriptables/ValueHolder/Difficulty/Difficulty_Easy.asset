@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427c30b4a4014d0fac867c18b8f725a4, type: 3}
   m_Name: Difficulty_Easy
   m_EditorClassIdentifier: 
-  StartingTime: 60
-  Increment: 5
-  MazeHeight: 8
-  MazeWidth: 6
+  StartingTime: 30
+  Increment: 4
+  MazeWidth: 8
+  MazeHeight: 7

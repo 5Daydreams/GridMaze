@@ -73,7 +73,7 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _WaveTrail: 0.5
-    - _WaveValue: 6.7199955
+    - _WaveValue: 8.399999
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0}

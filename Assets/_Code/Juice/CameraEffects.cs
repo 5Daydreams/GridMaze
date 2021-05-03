@@ -1,57 +1,58 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class CameraEffects : MonoBehaviour
+namespace _Code.Juice
 {
-    private Vector3 _startPos;
-    private float _startOrtoSize;
-    private Camera _camera;
-
-    private void Awake()
+    public class CameraEffects : MonoBehaviour
     {
-        _camera = FindObjectOfType<Camera>();
-        _startPos = transform.localPosition;
-        _startOrtoSize = _camera.orthographicSize;
-    }
+        private Vector3 _startPos;
+        private float _startOrtoSize;
+        private Camera _camera;
 
-    public IEnumerator Shake(float duration, float intensity)
-    {
-        float elapsedTime = 0.0f;
-
-        while (elapsedTime < duration)
+        private void Awake()
         {
-            float x = Random.Range(-1.0f, 1.0f) * intensity;
-            float y = Random.Range(-1.0f, 1.0f) * intensity;
-            float z = Random.Range(-1.0f, 1.0f) * intensity;
-
-            transform.localPosition = new Vector3(_startPos.x + x, _startPos.y + y, _startPos.z);
-
-            elapsedTime += Time.deltaTime;
-
-            yield return null;
+            _camera = FindObjectOfType<Camera>();
+            _startPos = transform.localPosition;
+            _startOrtoSize = _camera.orthographicSize;
         }
 
-        transform.localPosition = _startPos;
-    }
+        public IEnumerator Shake(float duration, float intensity)
+        {
+            float elapsedTime = 0.0f;
 
-    public IEnumerator ScreenKick(float duration, float downscaling)
-    {
-        float elapsedTime = 0.0f;
-        _camera.orthographicSize *= downscaling;
+            while (elapsedTime < duration)
+            {
+                float x = Random.Range(-1.0f, 1.0f) * intensity;
+                float y = Random.Range(-1.0f, 1.0f) * intensity;
+                float z = Random.Range(-1.0f, 1.0f) * intensity;
 
-        var remainingScaling = downscaling-1;
+                transform.localPosition = new Vector3(_startPos.x + x, _startPos.y + y, _startPos.z);
+
+                elapsedTime += Time.deltaTime;
+
+                yield return null;
+            }
+
+            transform.localPosition = _startPos;
+        }
+
+        public IEnumerator ScreenKick(float duration, float downscaling)
+        {
+            float elapsedTime = 0.0f;
+            _camera.orthographicSize *= downscaling;
+
+            var remainingScaling = downscaling-1;
         
-        while (elapsedTime < duration)
-        {
-            _camera.orthographicSize -= remainingScaling / duration;
+            while (elapsedTime < duration)
+            {
+                _camera.orthographicSize -= remainingScaling / duration;
 
-            elapsedTime += Time.deltaTime;
-            yield return null;
+                elapsedTime += Time.deltaTime;
+                yield return null;
+            }
+
+            _camera.orthographicSize = _startOrtoSize;
         }
-
-        _camera.orthographicSize = _startOrtoSize;
     }
 }

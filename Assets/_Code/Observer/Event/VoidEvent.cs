@@ -1,8 +1,11 @@
-﻿using _Code.Observer.Event;
+﻿using _Code.Observer.VoidType;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "CustomScriptables/Events/VoidEvent", fileName = "NewVoidEvent")]
-public class VoidEvent : BaseGameEvent<Void>
+namespace _Code.Observer.Event
 {
-    public void Raise() => Raise(new Void());
+    [CreateAssetMenu(menuName = "CustomScriptables/Events/VoidEvent", fileName = "NewVoidEvent")]
+    public class VoidEvent : BaseGameEvent<Void>
+    {
+        public void Raise() => Raise(new Void());
+    }
 }

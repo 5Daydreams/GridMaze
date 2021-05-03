@@ -920,19 +920,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 2623d3da89c03224c826a1e9185ef65c, type: 2}
-        m_TargetAssemblyTypeName: _Code.Toolbox.SimpleValues.SimpleValue`1[[System.Int32,
-          mscorlib
-        m_MethodName: SetValue
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &3432927835554730384
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1344,7 @@ GameObject:
   - component: {fileID: 7629365468860545683}
   - component: {fileID: 6290606299307719859}
   - component: {fileID: 2455511368509019270}
+  - component: {fileID: 2658459091697847391}
   m_Layer: 5
   m_Name: Time AttackCanvas
   m_TagString: Untagged
@@ -1526,6 +1514,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7776928951237642289}
+        m_TargetAssemblyTypeName: Stopwatch, Scripts
+        m_MethodName: StopTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2455511368509019270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1542,9 +1542,9 @@ MonoBehaviour:
   UnityEventResponse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7629365468860545683}
-        m_TargetAssemblyTypeName: _Code.Observer.CountdownTimer, Scripts
-        m_MethodName: StartCountdown
+      - m_Target: {fileID: 2658459091697847391}
+        m_TargetAssemblyTypeName: SetStartingCountdownBasedOnDifficulty, Scripts
+        m_MethodName: SetStartingTimeBasedOnDifficulty
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1579,6 +1579,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7629365468860545683}
+        m_TargetAssemblyTypeName: _Code.Observer.CountdownTimer, Scripts
+        m_MethodName: StartCountdown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2658459091697847391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7776928951237642252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a327d34936d18194888a23c3eab267a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _countdownTimer: {fileID: 7629365468860545683}
+  _difficultyHolder: {fileID: 11400000, guid: 83fbf10a841d2b6489629635bbe433ef, type: 2}
 --- !u!1 &7776928951262872799
 GameObject:
   m_ObjectHideFlags: 0

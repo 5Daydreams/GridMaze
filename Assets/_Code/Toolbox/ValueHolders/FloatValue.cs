@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace _Code.Toolbox.SimpleValues
+namespace _Code.Toolbox.ValueHolders
 {
     [CreateAssetMenu(fileName = "FloatValue",menuName = "CustomScriptables/SimpleValue/Float")]
     public class FloatValue : SimpleValue<float>

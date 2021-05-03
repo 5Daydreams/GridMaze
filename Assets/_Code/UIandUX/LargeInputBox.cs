@@ -1,4 +1,4 @@
-﻿using _Code.MainCode;
+﻿using _Code.ConcreteGridGenerators;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +8,7 @@ namespace _Code.UIAndUX
     {
         [SerializeField] private Button _closeWindowButton;
         [SerializeField] private Button _confirmButton;
-        [SerializeField] private MazeGenerator.MazeGenerator _maze;
+        [SerializeField] private MazeGenerator _maze;
 
         private void OnEnable()
         {

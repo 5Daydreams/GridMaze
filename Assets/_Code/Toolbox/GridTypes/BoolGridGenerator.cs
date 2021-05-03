@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
+using _Code.Toolbox.CellTypes;
 using UnityEngine;
 
-namespace _Code.GridTypes
+namespace _Code.Toolbox.GridTypes
 {
     public class BoolGridGenerator : MonoBehaviour
     {

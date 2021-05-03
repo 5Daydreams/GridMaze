@@ -1,6 +1,7 @@
 ﻿using System;
 using _Code.Toolbox.Extensions;
-using _Code.Toolbox.SimpleValues;
+using _Code.Toolbox.TextboxStringConversion;
+using _Code.Toolbox.ValueHolders;
 using UnityEngine;
 using UnityEngine.UI;
 

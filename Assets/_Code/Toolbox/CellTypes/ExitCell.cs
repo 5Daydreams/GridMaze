@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace _Code.CellTypes
+namespace _Code.Toolbox.CellTypes
 {
     public class ExitCell : MonoBehaviour
     {

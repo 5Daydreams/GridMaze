@@ -1,21 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-[CreateAssetMenu(fileName = "NewSceneTransition", menuName = "CustomScriptables/SceneTransition")]
-public class SceneTransition : ScriptableObject
+namespace _Code.Toolbox.SingleScriptables
 {
-    [SerializeField] private string _targetScene;
-    [SerializeField] private bool _onlyTransition;
-    
-    public void ChangeScene()
+    [CreateAssetMenu(fileName = "NewSceneTransition", menuName = "CustomScriptables/SceneTransition")]
+    public class SceneTransition : ScriptableObject
     {
-        if (_onlyTransition)
+        [SerializeField] private string _targetScene;
+        [SerializeField] private bool _onlyTransition;
+    
+        public void ChangeScene()
         {
-            if (SceneManager.GetActiveScene().name == _targetScene)
-                Debug.LogError("Error: this is a transition-only scene");
+            if (_onlyTransition)
+            {
+                if (SceneManager.GetActiveScene().name == _targetScene)
+                    Debug.LogError("Error: this is a transition-only scene");
+            }
+            SceneManager.LoadScene(_targetScene);
         }
-        SceneManager.LoadScene(_targetScene);
     }
 }

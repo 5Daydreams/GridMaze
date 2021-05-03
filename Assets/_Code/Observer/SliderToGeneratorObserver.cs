@@ -1,4 +1,4 @@
-﻿using _Code.MainCode;
+﻿using _Code.ConcreteGridGenerators;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +8,7 @@ namespace _Code.Observer
     {
         [SerializeField] private Slider _sliderH;
         [SerializeField] private Slider _sliderV;
-        [SerializeField] private MazeGenerator.MazeGenerator _generator;
+        [SerializeField] private MazeGenerator _generator;
 
         private void OnEnable()
         {

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Difficulty_Medium
   m_EditorClassIdentifier: 
   StartingTime: 30
-  Increment: 15
-  MazeHeight: 14
-  MazeWidth: 10
+  Increment: 7.5
+  MazeWidth: 12
+  MazeHeight: 8

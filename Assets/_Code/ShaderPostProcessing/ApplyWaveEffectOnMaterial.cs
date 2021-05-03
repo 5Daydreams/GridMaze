@@ -1,35 +1,37 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class ApplyWaveEffectOnMaterial : MonoBehaviour
+namespace _Code.ShaderPostProcessing
 {
-    [SerializeField] private Material _postprocessMaterial;
-    [SerializeField] private float _waveSpeed;
-    [SerializeField] private float _threshold;
-    [SerializeField] private bool _waveActive;
-    private float _waveDistance;
-
-    private void OnEnable()
+    public class ApplyWaveEffectOnMaterial : MonoBehaviour
     {
-        StartWave();
-    }
+        [SerializeField] private Material _postprocessMaterial;
+        [SerializeField] private float _waveSpeed;
+        [SerializeField] private float _threshold;
+        [SerializeField] private bool _waveActive;
+        private float _waveDistance;
 
-    private void FixedUpdate()
-    {
-        if (!_waveActive)
-            return;
+        private void OnEnable()
+        {
+            StartWave();
+        }
 
-        _waveDistance = _waveDistance + _waveSpeed * Time.deltaTime;
-        _postprocessMaterial.SetFloat("_WaveValue", _waveDistance);
+        private void FixedUpdate()
+        {
+            if (!_waveActive)
+                return;
 
-        if (_waveDistance >= _threshold)
-            _waveActive = false;
-    }
+            _waveDistance = _waveDistance + _waveSpeed * Time.deltaTime;
+            _postprocessMaterial.SetFloat("_WaveValue", _waveDistance);
 
-    [ContextMenu("StartWave")]
-    public void StartWave()
-    {
-        _waveDistance = 0;
-        _waveActive = true;
+            if (_waveDistance >= _threshold)
+                _waveActive = false;
+        }
+
+        [ContextMenu("StartWave")]
+        public void StartWave()
+        {
+            _waveDistance = 0;
+            _waveActive = true;
+        }
     }
 }

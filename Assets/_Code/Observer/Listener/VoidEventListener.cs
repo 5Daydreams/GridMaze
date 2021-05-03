@@ -1,6 +1,10 @@
-﻿using UnityEngine;
+﻿using _Code.Observer.Event;
+using _Code.Observer.VoidType;
 
-public class VoidEventListener : BaseGameEventListener<Void, VoidEvent, UnityVoidEvent>
+namespace _Code.Observer.Listener
 {
+    public class VoidEventListener : BaseGameEventListener<Void, VoidEvent, UnityVoidEvent>
+    {
     
+    }
 }

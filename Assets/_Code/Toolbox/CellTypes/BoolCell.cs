@@ -1,39 +1,40 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class BoolCell : Cell<bool>
+namespace _Code.Toolbox.CellTypes
 {
-    [SerializeField] private Color32 _white = Color.white;
-    [SerializeField] private Color32 _black = Color.black;
-
-    private void Awake()
+    public class BoolCell : Cell<bool>
     {
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-    }
+        [SerializeField] private Color32 _white = Color.white;
+        [SerializeField] private Color32 _black = Color.black;
 
-    private void SetColor(Color32 newColor)
-    {
-        _spriteRenderer.color = newColor;
-    }
+        private void Awake()
+        {
+            _spriteRenderer = GetComponent<SpriteRenderer>();
+        }
 
-    public override void SetCellValue(bool value)
-    {
-        base.SetCellValue(value);
-        SetColorOnOff(value);
-    }
+        private void SetColor(Color32 newColor)
+        {
+            _spriteRenderer.color = newColor;
+        }
 
-    private void SetColorOnOff(bool on)
-    {
-        if (on)
-            SetColor(_white);
+        public override void SetCellValue(bool value)
+        {
+            base.SetCellValue(value);
+            SetColorOnOff(value);
+        }
 
-        else
-            SetColor(_black);
-    }
+        private void SetColorOnOff(bool on)
+        {
+            if (on)
+                SetColor(_white);
 
-    public void DrawCell(int cellPathSize)
-    {
-        SetColorOnOff(this.isActiveAndEnabled);
+            else
+                SetColor(_black);
+        }
+
+        public void DrawCell(int cellPathSize)
+        {
+            SetColorOnOff(this.isActiveAndEnabled);
+        }
     }
 }

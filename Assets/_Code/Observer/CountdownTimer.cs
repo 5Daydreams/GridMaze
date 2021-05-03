@@ -1,5 +1,6 @@
 ﻿using System;
-using _Code.Toolbox.SimpleValues;
+using _Code.Observer.Event;
+using _Code.Toolbox.ValueHolders;
 using UnityEngine;
 
 namespace _Code.Observer
@@ -10,6 +11,11 @@ namespace _Code.Observer
         [SerializeField] private FloatValue _timeRemaining;
         [SerializeField] private VoidEvent _onTimerFinished;
         private bool _isRunning = false;
+
+        public void SetStartingTime(float time)
+        {
+            startingTime = time;
+        }
 
         private void FixedUpdate()
         {

@@ -129,9 +129,9 @@ MonoBehaviour:
   UnityEventResponse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 542b690159c98f14ab17853ca78d2534, type: 2}
-        m_TargetAssemblyTypeName: VoidEvent, Scripts
-        m_MethodName: Raise
+      - m_Target: {fileID: 6419145055043860328}
+        m_TargetAssemblyTypeName: SetTimeAttackMazeDimensions, Scripts
+        m_MethodName: SetMazeDimensions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -141,9 +141,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 6419145055043860328}
-        m_TargetAssemblyTypeName: SetTimeAttackMazeDimensions, Scripts
-        m_MethodName: SetMazeDimensions
+      - m_Target: {fileID: 11400000, guid: 542b690159c98f14ab17853ca78d2534, type: 2}
+        m_TargetAssemblyTypeName: VoidEvent, Scripts
+        m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

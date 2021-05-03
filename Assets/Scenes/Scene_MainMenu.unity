@@ -344,6 +344,24 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 479177200, guid: 1bcc87fef3e36a947b5930bf52e8689d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: _Code.Toolbox.ValueHolders.TimeAttackDifficulty.DifficultyHolder, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 479177200, guid: 1bcc87fef3e36a947b5930bf52e8689d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: _Code.Toolbox.ValueHolders.TimeAttackDifficulty.DifficultySettings,
+        Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135951226, guid: 1bcc87fef3e36a947b5930bf52e8689d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: _Code.Toolbox.ValueHolders.TimeAttackDifficulty.DifficultyHolder, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135951226, guid: 1bcc87fef3e36a947b5930bf52e8689d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: _Code.Toolbox.ValueHolders.TimeAttackDifficulty.DifficultySettings,
+        Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 1516217081, guid: 1bcc87fef3e36a947b5930bf52e8689d, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -367,8 +385,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1596329672, guid: 1bcc87fef3e36a947b5930bf52e8689d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: _Code.Toolbox.ValueHolders.TimeAttackDifficulty.DifficultyHolder, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596329672, guid: 1bcc87fef3e36a947b5930bf52e8689d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596329672, guid: 1bcc87fef3e36a947b5930bf52e8689d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: _Code.Toolbox.ValueHolders.TimeAttackDifficulty.DifficultySettings,
+        Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1065613569828195912, guid: 1bcc87fef3e36a947b5930bf52e8689d,
         type: 3}
