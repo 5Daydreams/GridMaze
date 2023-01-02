@@ -1,6 +1,6 @@
 # MazeOClock
 
-[https://nkiyoshi.itch.io/mazeoclock](Click here for the itch page!)
+[Click here for the itch page!](https://nkiyoshi.itch.io/mazeoclock)
 
 A slightly different take on the infinite-runner genre, the player is supposed to complete as many mazes as possible for as long as they can keep the timer up - every completed maze gives you extra time depending on the difficulty setting.
 
